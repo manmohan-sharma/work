@@ -1,0 +1,304 @@
+[2026-09-04T03:45:41.520Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-04T03:45:41.520Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-04T03:45:41.538Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-04T03:45:41.538Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-04T03:45:41.538Z] info    - Authentication is disabled
+[2026-09-04T03:45:41.538Z] info    - Not serving HTTPS
+[2026-09-04T03:45:41.538Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[03:45:41] 
+
+
+
+
+[03:45:41] Extension host agent started.
+[03:45:41] Started initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[03:45:41] Completed initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[03:45:45] [172.16.8.65][08a78c89][ManagementConnection] New connection established.
+[03:45:47] [172.16.8.65][4cfe3837][ExtensionHostConnection] New connection established.
+[03:45:47] [172.16.8.65][4cfe3837][ExtensionHostConnection] <100> Launched Extension Host Process.
+[04:18:43] [172.16.8.65][08a78c89][ManagementConnection] The client has reconnected.
+[06:06:27] [172.16.8.65][08a78c89][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2026-09-08T14:18:33.943Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-08T14:18:33.944Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-08T14:18:33.970Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-08T14:18:33.970Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-08T14:18:33.970Z] info    - Authentication is disabled
+[2026-09-08T14:18:33.970Z] info    - Not serving HTTPS
+[2026-09-08T14:18:33.970Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[14:18:35] 
+
+
+
+
+[14:18:35] Extension host agent started.
+[14:18:38] [172.16.20.65][ee61c284][ManagementConnection] New connection established.
+[14:18:40] [172.16.20.65][8d5ed179][ExtensionHostConnection] New connection established.
+[14:18:40] [172.16.20.65][8d5ed179][ExtensionHostConnection] <91> Launched Extension Host Process.
+[14:59:46] [172.16.20.65][ee61c284][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:59:46] [172.16.20.65][8d5ed179][ExtensionHostConnection] <91> Extension Host Process exited with code: 0, signal: null.
+[15:00:16] [172.16.20.65][13f3a5fc][ManagementConnection] New connection established.
+[15:00:18] [172.16.20.65][b39b3d2e][ExtensionHostConnection] New connection established.
+[15:00:18] [172.16.20.65][b39b3d2e][ExtensionHostConnection] <14307> Launched Extension Host Process.
+[15:06:38] [172.16.20.65][13f3a5fc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:06:38] [172.16.20.65][b39b3d2e][ExtensionHostConnection] <14307> Extension Host Process exited with code: 0, signal: null.
+[15:06:42] [172.16.20.65][1514fb9f][ManagementConnection] New connection established.
+[15:06:44] [172.16.20.65][8f921f06][ExtensionHostConnection] New connection established.
+[15:06:44] [172.16.20.65][8f921f06][ExtensionHostConnection] <17270> Launched Extension Host Process.
+[15:07:18] [172.16.20.65][1514fb9f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:07:18] [172.16.20.65][8f921f06][ExtensionHostConnection] <17270> Extension Host Process exited with code: 0, signal: null.
+[15:07:23] [172.16.20.65][f0e300d7][ManagementConnection] New connection established.
+[15:07:24] [172.16.20.65][9aaf4e26][ExtensionHostConnection] New connection established.
+[15:07:24] [172.16.20.65][9aaf4e26][ExtensionHostConnection] <17914> Launched Extension Host Process.
+[15:08:50] [172.16.20.65][f0e300d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:08:50] [172.16.20.65][9aaf4e26][ExtensionHostConnection] <17914> Extension Host Process exited with code: 0, signal: null.
+[15:08:54] [172.16.20.65][6a7184a8][ManagementConnection] New connection established.
+[15:08:57] [172.16.20.65][6842a914][ExtensionHostConnection] New connection established.
+[15:08:57] [172.16.20.65][6842a914][ExtensionHostConnection] <18805> Launched Extension Host Process.
+[15:12:10] [172.16.20.65][6a7184a8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:12:10] [172.16.20.65][6842a914][ExtensionHostConnection] <18805> Extension Host Process exited with code: 0, signal: null.
+[15:13:28] [172.16.20.65][57f672f1][ManagementConnection] New connection established.
+[15:13:32] [172.16.20.65][e5588ff3][ExtensionHostConnection] New connection established.
+[15:13:32] [172.16.20.65][e5588ff3][ExtensionHostConnection] <20977> Launched Extension Host Process.
+[15:21:10] [172.16.20.65][e7b5682b][ManagementConnection] New connection established.
+[15:21:12] [172.16.20.65][47ab4b23][ExtensionHostConnection] New connection established.
+[15:21:12] [172.16.20.65][47ab4b23][ExtensionHostConnection] <24469> Launched Extension Host Process.
+[15:21:14] [172.16.20.65][e7b5682b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:21:14] [172.16.20.65][47ab4b23][ExtensionHostConnection] <24469> Extension Host Process exited with code: 0, signal: null.
+[15:21:19] [172.16.20.65][6043c8f1][ManagementConnection] New connection established.
+[15:21:21] [172.16.20.65][583e467a][ExtensionHostConnection] New connection established.
+[15:21:21] [172.16.20.65][583e467a][ExtensionHostConnection] <24713> Launched Extension Host Process.
+[15:24:22] [172.16.20.65][57f672f1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:24:22] [172.16.20.65][e5588ff3][ExtensionHostConnection] <20977> Extension Host Process exited with code: 0, signal: null.
+[16:07:06] [172.16.20.65][6043c8f1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[16:11:20] [172.16.20.65][6043c8f1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[16:11:20] [172.16.20.65][6043c8f1][ManagementConnection] The client has reconnected.
+[16:11:20] [172.16.20.65][583e467a][ExtensionHostConnection] The client has reconnected.
+[16:19:28] [172.16.20.65][6043c8f1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[16:21:08] [172.16.20.65][6043c8f1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[16:21:08] [172.16.20.65][6043c8f1][ManagementConnection] The client has reconnected.
+[16:21:08] [172.16.20.65][583e467a][ExtensionHostConnection] The client has reconnected.
+[17:05:06] [172.16.20.65][6043c8f1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:05:06] [172.16.20.65][583e467a][ExtensionHostConnection] <24713> Extension Host Process exited with code: 0, signal: null.
+[17:13:17] [172.16.20.65][0d53132a][ManagementConnection] New connection established.
+[17:13:20] [172.16.20.65][90b5f729][ExtensionHostConnection] New connection established.
+[17:13:20] [172.16.20.65][90b5f729][ExtensionHostConnection] <60483> Launched Extension Host Process.
+[2026-09-08T19:59:24.115Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-08T19:59:24.116Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-08T19:59:24.139Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-08T19:59:24.139Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-08T19:59:24.139Z] info    - Authentication is disabled
+[2026-09-08T19:59:24.139Z] info    - Not serving HTTPS
+[2026-09-08T19:59:24.139Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[19:59:24] 
+
+
+
+
+[19:59:24] Extension host agent started.
+[19:59:27] [172.16.13.1][033f9f50][ManagementConnection] New connection established.
+[19:59:30] [172.16.13.1][5bb66307][ExtensionHostConnection] New connection established.
+[19:59:30] [172.16.13.1][5bb66307][ExtensionHostConnection] <91> Launched Extension Host Process.
+[20:08:23] [172.16.13.1][033f9f50][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[20:16:28] [172.16.13.1][033f9f50][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[20:16:28] [172.16.13.1][5bb66307][ExtensionHostConnection] The client has reconnected.
+[20:16:28] [172.16.13.1][033f9f50][ManagementConnection] The client has reconnected.
+[20:30:15] [172.16.13.1][033f9f50][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[20:30:41] [172.16.13.1][033f9f50][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[20:30:41] [172.16.13.1][5bb66307][ExtensionHostConnection] The client has reconnected.
+[20:30:41] [172.16.13.1][033f9f50][ManagementConnection] The client has reconnected.
+[20:41:17] [172.16.13.1][033f9f50][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[23:40:52] [172.16.13.1][5bb66307][ExtensionHostConnection] <91> Extension Host Process exited with code: 0, signal: null.
+[23:41:18] [172.16.13.1][033f9f50][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2026-09-09T02:39:57.914Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-09T02:39:57.914Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-09T02:39:57.933Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-09T02:39:57.933Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-09T02:39:57.933Z] info    - Authentication is disabled
+[2026-09-09T02:39:57.933Z] info    - Not serving HTTPS
+[2026-09-09T02:39:57.933Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[02:40:00] 
+
+
+
+
+[02:40:00] Extension host agent started.
+[02:40:04] [172.16.6.1][3b04c1bc][ManagementConnection] New connection established.
+[02:40:06] [172.16.6.1][9ae4e6ba][ExtensionHostConnection] New connection established.
+[02:40:06] [172.16.6.1][9ae4e6ba][ExtensionHostConnection] <91> Launched Extension Host Process.
+[03:31:10] [172.16.6.1][3b04c1bc][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[04:21:14] [172.16.6.1][3b04c1bc][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[04:21:14] [172.16.6.1][9ae4e6ba][ExtensionHostConnection] The client has reconnected.
+[04:21:17] [172.16.6.1][3b04c1bc][ManagementConnection] The client has reconnected.
+[04:51:44] [172.16.6.1][3b04c1bc][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[04:52:03] [172.16.6.1][3b04c1bc][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[04:52:03] [172.16.6.1][9ae4e6ba][ExtensionHostConnection] The client has reconnected.
+[04:52:03] [172.16.6.1][3b04c1bc][ManagementConnection] The client has reconnected.
+[2026-09-09T17:15:53.950Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-09T17:15:53.951Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-09T17:15:53.974Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-09T17:15:53.974Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-09T17:15:53.974Z] info    - Authentication is disabled
+[2026-09-09T17:15:53.974Z] info    - Not serving HTTPS
+[2026-09-09T17:15:53.974Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[17:15:55] 
+
+
+
+
+[17:15:55] Extension host agent started.
+[17:15:59] [172.16.21.1][3e585b36][ManagementConnection] New connection established.
+[17:16:00] [172.16.21.1][6efcd73f][ExtensionHostConnection] New connection established.
+[17:16:00] [172.16.21.1][6efcd73f][ExtensionHostConnection] <91> Launched Extension Host Process.
+[18:11:32] [172.16.21.1][3e585b36][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[18:19:10] [172.16.21.1][3e585b36][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[18:19:10] [172.16.21.1][3e585b36][ManagementConnection] The client has reconnected.
+[18:19:10] [172.16.21.1][6efcd73f][ExtensionHostConnection] The client has reconnected.
+[18:23:43] [172.16.21.1][3e585b36][ManagementConnection] The client has reconnected.
+[18:23:46] [172.16.21.1][6efcd73f][ExtensionHostConnection] The client has reconnected.
+[18:50:31] [172.16.21.1][6efcd73f][ExtensionHostConnection] The client has reconnected.
+[18:50:31] [172.16.21.1][3e585b36][ManagementConnection] The client has reconnected.
+[19:01:09] [172.16.21.1][3e585b36][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:01:10] [172.16.21.1][6efcd73f][ExtensionHostConnection] <91> Extension Host Process exited with code: 0, signal: null.
+[19:01:18] [172.16.21.1][bfb751da][ManagementConnection] New connection established.
+[19:01:20] [172.16.21.1][d342bf69][ExtensionHostConnection] New connection established.
+[19:01:20] [172.16.21.1][d342bf69][ExtensionHostConnection] <24383> Launched Extension Host Process.
+[20:46:25] [172.16.21.1][d342bf69][ExtensionHostConnection] The client has reconnected.
+[20:46:25] [172.16.21.1][bfb751da][ManagementConnection] The client has reconnected.
+[21:25:19] [172.16.21.1][d342bf69][ExtensionHostConnection] The client has reconnected.
+[21:25:19] [172.16.21.1][bfb751da][ManagementConnection] The client has reconnected.
+[21:46:23] [172.16.21.1][bfb751da][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:46:23] [172.16.21.1][d342bf69][ExtensionHostConnection] <24383> Extension Host Process exited with code: 0, signal: null.
+[2026-09-10T01:17:57.385Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-10T01:17:57.386Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-10T01:17:57.409Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-10T01:17:57.409Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-10T01:17:57.409Z] info    - Authentication is disabled
+[2026-09-10T01:17:57.409Z] info    - Not serving HTTPS
+[2026-09-10T01:17:57.409Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[01:17:57] 
+
+
+
+
+[01:17:57] Extension host agent started.
+[01:18:00] [172.16.7.129][26022a4a][ManagementConnection] New connection established.
+[01:18:01] [172.16.7.129][e891993b][ExtensionHostConnection] New connection established.
+[01:18:01] [172.16.7.129][e891993b][ExtensionHostConnection] <91> Launched Extension Host Process.
+[01:18:02] [172.16.7.129][e891993b][ExtensionHostConnection] The client has reconnected.
+[02:10:41] [172.16.7.129][26022a4a][ManagementConnection] The client has reconnected.
+[02:10:41] [172.16.7.129][e891993b][ExtensionHostConnection] The client has reconnected.
+[02:46:39] [172.16.7.129][26022a4a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[02:49:07] [172.16.7.129][26022a4a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[02:49:07] [172.16.7.129][e891993b][ExtensionHostConnection] The client has reconnected.
+[02:49:07] [172.16.7.129][26022a4a][ManagementConnection] The client has reconnected.
+[03:36:08] [172.16.7.129][26022a4a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[04:41:49] [172.16.7.129][26022a4a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[04:41:49] [172.16.7.129][e891993b][ExtensionHostConnection] The client has reconnected.
+[04:41:50] [172.16.7.129][26022a4a][ManagementConnection] The client has reconnected.
+[2026-09-10T14:38:50.994Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-10T14:38:50.995Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-10T14:38:51.020Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-10T14:38:51.021Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-10T14:38:51.021Z] info    - Authentication is disabled
+[2026-09-10T14:38:51.021Z] info    - Not serving HTTPS
+[2026-09-10T14:38:51.021Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[14:38:51] 
+
+
+
+
+[14:38:51] Extension host agent started.
+[14:38:53] [172.16.7.1][36f0209a][ManagementConnection] New connection established.
+[14:38:55] [172.16.7.1][9742d771][ExtensionHostConnection] New connection established.
+[14:38:55] [172.16.7.1][9742d771][ExtensionHostConnection] <91> Launched Extension Host Process.
+[15:04:23] [172.16.7.1][36f0209a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[15:12:51] [172.16.7.1][36f0209a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[15:12:51] [172.16.7.1][9742d771][ExtensionHostConnection] The client has reconnected.
+[15:12:51] [172.16.7.1][36f0209a][ManagementConnection] The client has reconnected.
+[15:12:51] [172.16.7.1][9742d771][ExtensionHostConnection] <91> Extension Host Process exited with code: 0, signal: null.
+[15:12:59] [172.16.7.1][fb6d04c7][ManagementConnection] New connection established.
+[15:13:01] [172.16.7.1][2123503d][ExtensionHostConnection] New connection established.
+[15:13:01] [172.16.7.1][2123503d][ExtensionHostConnection] <8797> Launched Extension Host Process.
+[15:13:23] [172.16.7.1][36f0209a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[16:04:00] [172.16.7.1][36f0209a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[16:04:00] [172.16.7.1][fb6d04c7][ManagementConnection] The client has reconnected.
+[16:04:01] [172.16.7.1][2123503d][ExtensionHostConnection] The client has reconnected.
+[16:09:01] [172.16.7.1][36f0209a][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[17:08:24] [172.16.7.1][fb6d04c7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[17:08:33] [172.16.7.1][fb6d04c7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[17:08:33] [172.16.7.1][2123503d][ExtensionHostConnection] The client has reconnected.
+[17:08:33] [172.16.7.1][fb6d04c7][ManagementConnection] The client has reconnected.
+[17:58:28] [172.16.7.1][fb6d04c7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[18:20:41] [172.16.7.1][fb6d04c7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[18:20:41] [172.16.7.1][2123503d][ExtensionHostConnection] The client has reconnected.
+[18:20:42] [172.16.7.1][fb6d04c7][ManagementConnection] The client has reconnected.
+[18:32:00] [172.16.7.1][fb6d04c7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[18:34:49] [172.16.7.1][fb6d04c7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[18:34:49] [172.16.7.1][fb6d04c7][ManagementConnection] The client has reconnected.
+[18:34:49] [172.16.7.1][2123503d][ExtensionHostConnection] The client has reconnected.
+[2026-09-10T19:28:31.861Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-10T19:28:31.862Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-10T19:28:31.887Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-10T19:28:31.887Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-10T19:28:31.888Z] info    - Authentication is disabled
+[2026-09-10T19:28:31.888Z] info    - Not serving HTTPS
+[2026-09-10T19:28:31.888Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[19:28:32] 
+
+
+
+
+[19:28:32] Extension host agent started.
+[19:28:35] [172.16.13.129][61958b55][ManagementConnection] New connection established.
+[19:28:37] [172.16.13.129][3bb64d1a][ExtensionHostConnection] New connection established.
+[19:28:37] [172.16.13.129][3bb64d1a][ExtensionHostConnection] <91> Launched Extension Host Process.
+[20:13:15] [172.16.13.129][61958b55][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[23:12:47] [172.16.13.129][3bb64d1a][ExtensionHostConnection] <91> Extension Host Process exited with code: 0, signal: null.
+[23:13:18] [172.16.13.129][61958b55][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2026-09-11T07:20:45.754Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-11T07:20:45.755Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-11T07:20:45.778Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-11T07:20:45.778Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-11T07:20:45.778Z] info    - Authentication is disabled
+[2026-09-11T07:20:45.778Z] info    - Not serving HTTPS
+[2026-09-11T07:20:45.778Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[07:20:45] 
+
+
+
+
+[07:20:46] Extension host agent started.
+[07:20:51] [172.16.15.193][6ade76c3][ManagementConnection] New connection established.
+[07:20:53] [172.16.15.193][5410fc4e][ExtensionHostConnection] New connection established.
+[07:20:53] [172.16.15.193][5410fc4e][ExtensionHostConnection] <91> Launched Extension Host Process.
+[08:15:38] [172.16.15.193][6ade76c3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:15:53] [172.16.15.193][6ade76c3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:15:53] [172.16.15.193][6ade76c3][ManagementConnection] The client has reconnected.
+[08:15:54] [172.16.15.193][5410fc4e][ExtensionHostConnection] The client has reconnected.
+[08:22:38] [172.16.15.193][6ade76c3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:24:25] [172.16.15.193][6ade76c3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:24:25] [172.16.15.193][6ade76c3][ManagementConnection] The client has reconnected.
+[08:24:26] [172.16.15.193][5410fc4e][ExtensionHostConnection] The client has reconnected.
+[08:24:27] [172.16.15.193][5410fc4e][ExtensionHostConnection] <91> Extension Host Process exited with code: 0, signal: null.
+[08:24:37] [172.16.15.193][32031c2e][ManagementConnection] New connection established.
+[08:24:39] [172.16.15.193][92d3f6a5][ExtensionHostConnection] New connection established.
+[08:24:39] [172.16.15.193][92d3f6a5][ExtensionHostConnection] <17400> Launched Extension Host Process.
+[08:24:58] [172.16.15.193][6ade76c3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[08:42:54] [172.16.15.193][32031c2e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:42:54] [172.16.15.193][92d3f6a5][ExtensionHostConnection] <17400> Extension Host Process exited with code: 0, signal: null.
+[08:42:59] [172.16.15.193][6ade76c3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[08:42:59] [172.16.15.193][9dcc20aa][ManagementConnection] New connection established.
+[08:43:01] [172.16.15.193][65f1e85e][ExtensionHostConnection] New connection established.
+[08:43:01] [172.16.15.193][65f1e85e][ExtensionHostConnection] <22757> Launched Extension Host Process.
+[08:43:02] [172.16.15.193][65f1e85e][ExtensionHostConnection] The client has reconnected.
+[08:47:59] [172.16.15.193][6ade76c3][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[09:01:12] [172.16.15.193][9dcc20aa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[09:02:23] [172.16.15.193][9dcc20aa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[09:02:23] [172.16.15.193][9dcc20aa][ManagementConnection] The client has reconnected.
+[09:02:23] [172.16.15.193][65f1e85e][ExtensionHostConnection] The client has reconnected.
+[09:26:31] [172.16.15.193][9dcc20aa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[09:28:17] [172.16.15.193][9dcc20aa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[09:28:17] [172.16.15.193][65f1e85e][ExtensionHostConnection] The client has reconnected.
+[09:28:17] [172.16.15.193][9dcc20aa][ManagementConnection] The client has reconnected.
+[09:33:25] [172.16.15.193][9dcc20aa][ManagementConnection] The client has reconnected.
+[09:33:25] [172.16.15.193][65f1e85e][ExtensionHostConnection] The client has reconnected.

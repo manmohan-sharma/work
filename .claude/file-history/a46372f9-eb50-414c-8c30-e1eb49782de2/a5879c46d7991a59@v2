@@ -1,0 +1,102 @@
+"""
+Contracts the implemented modules depend on.
+
+Ported from the Concept 1 planning deliverable
+(``concept1-ai-planning-collaboration/starter/myproject_interfaces.py``), with
+two adjustments made while implementing:
+
+1. ``Grade`` and the error hierarchy now live in ``domain/``, as the structure
+   plan requires (domain is the graph's only leaf). This file imports them
+   rather than declaring them a second time.
+2. Only the contracts with an implementation in this concept are carried over —
+   Clock, SchedulingPolicy and PolicyRegistry. CardRepository, ReviewLog,
+   SessionQueueBuilder and SessionPresenter stay in the planning file until
+   their implementations land, so nothing here is an abstraction with no user.
+
+The single most important decision encoded here: SchedulingPolicy is a PURE
+function of (state, grade, now). Time enters through an injected Clock and never
+through ``datetime.now()``, which is what makes interval maths exhaustively
+testable without patching the system clock.
+"""
+from abc import ABC, abstractmethod
+from datetime import datetime
+from typing import List, Protocol, runtime_checkable
+
+from .domain.models import Grade, ReviewState
+
+
+@runtime_checkable
+class Clock(Protocol):
+    """Supplies the current time.
+
+    Injected everywhere rather than calling ``datetime.now()`` directly, so that
+    scheduling behaviour is deterministic and directly assertable. A test
+    implementation returning a fixed datetime is three lines, which is what keeps
+    the scheduling test suite free of mocking frameworks.
+    """
+
+    def now(self) -> datetime:
+        """Return the current time as a timezone-aware datetime."""
+        ...
+
+
+class SchedulingPolicy(ABC):
+    """Strategy computing when a card should next be reviewed.
+
+    The system's primary extension point: a new algorithm (SM-2, Leitner, fixed
+    interval) is one new subclass plus a registry entry, satisfying the
+    Open/Closed Principle.
+
+    Implementations MUST be pure: no I/O, no clock access, no mutation of the
+    input state. All time enters through the ``now`` argument. This constraint is
+    what makes interval maths exhaustively testable — every edge case (first
+    review, perfect streak, lapse, ease-factor floor, maximum interval) is
+    reachable by passing values, with no fixtures and no patching.
+    """
+
+    @property
+    @abstractmethod
+    def name(self) -> str:
+        """Policy identifier used on the command line, e.g. ``"sm2"``."""
+        ...
+
+    @abstractmethod
+    def next_state(
+        self, state: ReviewState, grade: Grade, now: datetime
+    ) -> ReviewState:
+        """Return a NEW review state with the next due date applied.
+
+        Args:
+            state: The card's state before this review. Must not be mutated.
+            grade: The learner's self-assessed recall quality.
+            now: The moment of review, supplied by the caller's Clock.
+
+        Returns:
+            A new ReviewState with due_at, interval_days, ease_factor,
+            repetitions and last_reviewed_at updated.
+
+        Raises:
+            Nothing. A never-reviewed card (``interval_days == 0``) is valid
+            input, as is a lapse from any interval.
+        """
+        ...
+
+
+class PolicyRegistry(Protocol):
+    """Interface for looking up scheduling policies by name.
+
+    The single component that must change when an algorithm is added, and the
+    seam at which explicit registration could later become plugin discovery.
+    """
+
+    def available_policies(self) -> List[str]:
+        """Return registered policy names, for CLI help and error messages."""
+        ...
+
+    def create(self, policy_name: str) -> SchedulingPolicy:
+        """Instantiate the policy registered under ``policy_name``.
+
+        Raises:
+            PolicyNotFoundError: If no policy is registered under that name.
+        """
+        ...

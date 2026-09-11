@@ -1,0 +1,41 @@
+2026-09-04 03:48:53.726 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-29:0
+2026-09-04 03:48:53.772 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-04 03:48:55.301 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-29:0
+2026-09-04 03:48:55.307 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "5": jedi.inference.utils.UncaughtAttributeError: 'CompiledModule' object has no attribute 'non_stub_value_set'
+NoneType: None
+
+2026-09-04 03:48:55.309 [info] [Error - 3:48:55 AM] Request textDocument/semanticTokens/full failed.
+2026-09-04 03:48:55.309 [info]   Message: jedi.inference.utils.UncaughtAttributeError: 'CompiledModule' object has no attribute 'non_stub_value_set'
+  Code: -32603 
+[object Object]
+2026-09-04 03:48:55.870 [info] [Debug - 3:48:55 AM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-04 03:48:56.030 [info] [Debug - 3:48:56 AM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-04 03:48:56.689 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-29:0
+2026-09-04 03:48:57.118 [info] [Debug - 3:48:57 AM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-04 03:48:59.978 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-29:0
+2026-09-04 03:49:00.505 [info] [Debug - 3:49:00 AM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-04 03:49:08.818 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-29:0
+2026-09-04 03:49:09.281 [info] [Debug - 3:49:09 AM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-04 03:50:24.592 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-29:0
+2026-09-04 03:50:25.111 [info] [Debug - 3:50:25 AM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-04 03:55:54.332 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-29:0
+2026-09-04 03:55:55.453 [info] [Debug - 3:55:55 AM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-04 03:59:27.477 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/data_processor.py 
+2026-09-04 03:59:27.514 [info] [Debug - 3:59:27 AM] multiple definitions found for name "processed_value" of type 'statement' (49:39):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.solution.data_processor.process_data.processed_value', description='processed_value = MAX_VALUE'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.solution.data_processor.process_data.processed_value', description="processed_value = item['value'] * MULTIPLIER">
+2026-09-04 03:59:27.515 [info] [Debug - 3:59:27 AM] no matching semantic token for "__name__" of type 'statement' (60:3)

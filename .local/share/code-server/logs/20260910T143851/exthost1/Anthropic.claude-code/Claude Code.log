@@ -1,0 +1,15 @@
+2026-09-10 14:38:58.790 [info] Claude code extension is now active?
+2026-09-10 14:38:58.790 [info] MCP Server running on port 55361 (localhost only)
+2026-09-10 14:41:05.477 [info] Creating new Claude terminal
+2026-09-10 14:41:06.269 [info] Terminal shell integration available
+2026-09-10 14:41:45.565 [info] New WS connection from: /
+2026-09-10 14:41:45.567 [info] MCP server connected to transport
+2026-09-10 14:41:45.571 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-10 14:41:45.571 [info] Registered diagnostic client: client_0
+2026-09-10 14:41:46.068 [info] Logging event: run_claude_command undefined
+2026-09-10 14:43:46.802 [info] Closing all diff tabs in the editor...
+2026-09-10 14:43:46.803 [info] Closed 0 diff tabs.
+2026-09-10 14:45:48.459 [info] Closing all diff tabs in the editor...
+2026-09-10 14:45:48.461 [info] Closed 0 diff tabs.
+2026-09-10 15:00:28.794 [info] Closing all diff tabs in the editor...
+2026-09-10 15:00:28.800 [info] Closed 0 diff tabs.

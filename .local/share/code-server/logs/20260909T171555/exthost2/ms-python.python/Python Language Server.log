@@ -1,0 +1,90 @@
+2026-09-09 19:01:35.384 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept1-context-gap-prevention/starter/traditional_prompts.py 
+2026-09-09 19:01:35.388 [info] [Debug - 7:01:35 PM] no definitions found for name "strip" of type 'statement' (58:21)
+2026-09-09 19:01:35.389 [info] [Debug - 7:01:35 PM] no matching semantic token for "__name__" of type 'statement' (64:3)
+2026-09-09 19:01:36.470 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept1-context-gap-prevention/starter/xml_templates.py 
+2026-09-09 19:01:36.511 [info] [Debug - 7:01:36 PM] multiple definitions found for name "strip" of type 'statement' (129:23):
+ <Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+2026-09-09 19:01:36.511 [info] [Debug - 7:01:36 PM] no matching semantic token for "__name__" of type 'statement' (155:3)
+2026-09-09 19:01:36.530 [info] [Debug - 7:01:36 PM] multiple definitions found for name "replace" of type 'statement' (161:28):
+ <Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+2026-09-09 19:01:36.533 [info] [Debug - 7:01:36 PM] multiple definitions found for name "title" of type 'statement' (161:46):
+ <Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+2026-09-09 19:10:18.635 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept1-context-gap-prevention/starter/xml_templates.py 
+2026-09-09 19:10:18.652 [info] [Debug - 7:10:18 PM] multiple definitions found for name "strip" of type 'statement' (129:23):
+ <Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+2026-09-09 19:10:18.652 [info] [Debug - 7:10:18 PM] no matching semantic token for "__name__" of type 'statement' (155:3)
+2026-09-09 19:10:18.671 [info] [Debug - 7:10:18 PM] multiple definitions found for name "replace" of type 'statement' (161:28):
+ <Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+2026-09-09 19:10:18.674 [info] [Debug - 7:10:18 PM] multiple definitions found for name "title" of type 'statement' (161:46):
+ <Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+2026-09-09 19:11:45.546 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept1-context-gap-prevention/starter/xml_templates.py 
+2026-09-09 19:11:45.564 [info] [Debug - 7:11:45 PM] multiple definitions found for name "strip" of type 'statement' (139:23):
+ <Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+2026-09-09 19:11:45.564 [info] [Debug - 7:11:45 PM] no matching semantic token for "__name__" of type 'statement' (165:3)
+2026-09-09 19:11:45.582 [info] [Debug - 7:11:45 PM] multiple definitions found for name "replace" of type 'statement' (171:28):
+ <Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+2026-09-09 19:11:45.585 [info] [Debug - 7:11:45 PM] multiple definitions found for name "title" of type 'statement' (171:46):
+ <Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+2026-09-09 19:21:54.587 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept1-context-gap-prevention/starter/traditional_prompts.py 
+2026-09-09 19:21:54.668 [info] [Debug - 7:21:54 PM] no definitions found for name "strip" of type 'statement' (58:21)
+2026-09-09 19:21:54.669 [info] [Debug - 7:21:54 PM] no matching semantic token for "__name__" of type 'statement' (64:3)
+2026-09-09 21:01:11.130 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept2-phantom-dependency-prevention/starter/constraint_templates.py 
+2026-09-09 21:01:11.157 [info] [Debug - 9:01:11 PM] multiple definitions found for name "strip" of type 'statement' (153:23):
+ <Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+2026-09-09 21:01:11.179 [info] [Debug - 9:01:11 PM] multiple definitions found for name "replace" of type 'statement' (161:33):
+ <Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+2026-09-09 21:01:11.183 [info] [Debug - 9:01:11 PM] multiple definitions found for name "title" of type 'statement' (161:51):
+ <Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+2026-09-09 21:01:11.185 [info] [Debug - 9:01:11 PM] no matching semantic token for "__name__" of type 'statement' (167:3)
+2026-09-09 21:04:09.102 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept2-phantom-dependency-prevention/starter/constraint_templates.py 
+2026-09-09 21:04:09.125 [info] [Debug - 9:04:09 PM] multiple definitions found for name "strip" of type 'statement' (230:23):
+ <Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+2026-09-09 21:04:09.147 [info] [Debug - 9:04:09 PM] multiple definitions found for name "replace" of type 'statement' (238:33):
+ <Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+2026-09-09 21:04:09.150 [info] [Debug - 9:04:09 PM] multiple definitions found for name "title" of type 'statement' (238:51):
+ <Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+2026-09-09 21:04:09.153 [info] [Debug - 9:04:09 PM] no matching semantic token for "__name__" of type 'statement' (244:3)
+2026-09-09 21:46:10.538 [info] semantic_tokens_full file:///voc/work/exercises/lesson-3-prompt-with-purpose/exercises/concept2-phantom-dependency-prevention/starter/constraint_templates.py 
+2026-09-09 21:46:10.560 [info] [Debug - 9:46:10 PM] multiple definitions found for name "strip" of type 'statement' (232:23):
+ <Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+<Name full_name='builtins.str.strip', description='def strip'>
+2026-09-09 21:46:10.582 [info] [Debug - 9:46:10 PM] multiple definitions found for name "replace" of type 'statement' (240:33):
+ <Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+<Name full_name='builtins.str.replace', description='def replace'>
+2026-09-09 21:46:10.585 [info] [Debug - 9:46:10 PM] multiple definitions found for name "title" of type 'statement' (240:51):
+ <Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+<Name full_name='builtins.str.title', description='def title'>
+2026-09-09 21:46:10.587 [info] [Debug - 9:46:10 PM] no matching semantic token for "__name__" of type 'statement' (246:3)

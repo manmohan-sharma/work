@@ -1,0 +1,30 @@
+2026-09-08 15:21:14.090 [info] Telemetry level is off
+2026-09-08 15:21:14.090 [info] Experiments are disabled, only manually opted experiments are active.
+2026-09-08 15:21:14.090 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-09-08 15:21:14.090 [info] Starting Environment refresh
+2026-09-08 15:21:14.090 [info] Searching for interpreters in posix paths locator
+2026-09-08 15:21:14.090 [info] Searching for pyenv environments
+2026-09-08 15:21:14.090 [info] Searching for conda environments
+2026-09-08 15:21:14.090 [info] Searching for global virtual environments
+2026-09-08 15:21:14.090 [info] Searching for custom virtual environments
+2026-09-08 15:21:14.091 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-08 15:21:14.091 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-08 15:21:14.091 [info] pyenv is not installed
+2026-09-08 15:21:14.091 [info] Finished searching for pyenv environments: 17 milliseconds
+2026-09-08 15:21:14.091 [info] Finished searching for custom virtual envs: 17 milliseconds
+2026-09-08 15:21:14.091 [info] > conda info --json
+2026-09-08 15:21:14.091 [info] > hatch env show --json
+2026-09-08 15:21:14.091 [info] cwd: .
+2026-09-08 15:21:14.091 [info] > pyenv which python
+2026-09-08 15:21:14.091 [info] cwd: .
+2026-09-08 15:21:14.091 [info] Finished searching for global virtual envs: 32 milliseconds
+2026-09-08 15:21:14.091 [info] Found: /bin/python --> /bin/python3.10
+2026-09-08 15:21:14.091 [info] Found: /bin/python3 --> /bin/python3.10
+2026-09-08 15:21:14.095 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-09-08 15:21:14.095 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-09-08 15:21:14.727 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-09-08 15:21:14.729 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-09-08 15:21:14.736 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-09-08 15:21:14.737 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-09-08 15:21:14.749 [info] > ./.venv/bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-08 15:21:14.818 [info] > /bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py

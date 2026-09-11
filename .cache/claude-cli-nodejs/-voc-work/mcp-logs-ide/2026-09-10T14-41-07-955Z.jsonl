@@ -1,0 +1,36 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T14:41:45.561Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 19ms","timestamp":"2026-09-10T14:41:45.578Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-10T14:41:45.578Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-10T14:41:45.621Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T14:43:46.795Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 57ms","timestamp":"2026-09-10T14:43:46.852Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T14:45:48.456Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 28ms","timestamp":"2026-09-10T14:45:48.485Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T15:00:28.790Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 53ms","timestamp":"2026-09-10T15:00:28.843Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"WebSocket transport closed/disconnected, attempting automatic reconnection","timestamp":"2026-09-10T15:12:51.398Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T15:12:51.400Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Connection failed after 4ms: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:51.405Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:51.405Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 1 completed with status: failed","timestamp":"2026-09-10T15:12:51.405Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 2 in 1000ms","timestamp":"2026-09-10T15:12:51.405Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T15:12:52.406Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Connection failed after 2ms: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:52.407Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:52.407Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 2 completed with status: failed","timestamp":"2026-09-10T15:12:52.408Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 3 in 2000ms","timestamp":"2026-09-10T15:12:52.408Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T15:12:54.409Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Connection failed after 2ms: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:54.411Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:54.411Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 3 completed with status: failed","timestamp":"2026-09-10T15:12:54.412Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 4 in 4000ms","timestamp":"2026-09-10T15:12:54.412Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T15:12:58.413Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Connection failed after 1ms: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:58.414Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:12:58.414Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 4 completed with status: failed","timestamp":"2026-09-10T15:12:58.414Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 5 in 8000ms","timestamp":"2026-09-10T15:12:58.414Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T15:13:06.415Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Connection failed after 1ms: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:13:06.416Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:55361/' failed: Failed to connect","timestamp":"2026-09-10T15:13:06.416Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 5 completed with status: failed","timestamp":"2026-09-10T15:13:06.416Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}
+{"debug":"Max reconnection attempts (5) reached, giving up","timestamp":"2026-09-10T15:13:06.416Z","sessionId":"c5d063aa-77af-4a1f-8c39-5cd4abf90411","cwd":"/voc/work"}

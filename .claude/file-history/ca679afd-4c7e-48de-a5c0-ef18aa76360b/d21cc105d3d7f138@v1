@@ -1,0 +1,54 @@
+"""Shared pytest fixtures.
+
+Holds the seeded in-memory database that used to live inside
+user_auth.connect_to_database(). Keeping it here is the S2 fix: the
+application module no longer ships a fixtupytest
+
+from user_auth import BCRYPT_ROUNDS, RateLimiter, UserAuth, create_connection, initialize_schema
+
+# Test data only. Real deployments create users through registration;
+# nothing in the application reads these.
+FIXTURE_USERS = [
+    ("admin", "password123"),
+    ("user1", "secret"),
+]
+
+
+@pytest.fixture
+def connection():
+    """An empty, schema-initialized in-memory database."""
+    conn = create_connection(":memory:")
+    initialize_schema(conn)
+    yield conn
+    conn.close()
+
+
+@pytest.fixture
+def seeded_connection(connection):
+    """The same database with the fixture users inserted."""
+    for username, password in FIXTURE_USERS:
+        # Hashed directly rather than through hash_password(): these
+        # passwords are shorter than MIN_PASSWORD_BYTES, and they stand in
+        # for accounts predating the policy. login() deliberately does not
+        # enforce a minimum, so such accounts still work.
+        password_hash = bcrypt.hashpw(
+            password.encode("utf-8"), bcrypt.gensalt(rounds=BCRYPT_ROUNDS)
+        )
+        connection.execute(
+            "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+            (username, password_hash),
+        )
+    connection.commit()
+    return connection
+
+
+@pytest.fixture
+def auth(seeded_connection):
+    """A UserAuth wired to the seeded database."""
+    return UserAuth(seeded_connection)
+
+
+@pytest.fixture
+def permissive_auth(seeded_connection):
+    """A UserAuth whose rate limiter will not interfere with the test."""
+    return UserAuth(seeded_connection, rate_limiter=RateLimiter(max_attempts=10_000))

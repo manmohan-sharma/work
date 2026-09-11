@@ -1,0 +1,18 @@
+[2026-09-08T15:02:15.953Z] [supervisor] ─── daemon start ─── version=2.1.260 pid=15189 origin=transient
+[2026-09-08T15:02:15.977Z] [supervisor] auth: no token found, will re-check keychain every 30s
+[2026-09-08T15:02:15.980Z] [supervisor] workers=0
+[2026-09-08T15:02:16.015Z] [bg] bg: control socket bound at /tmp/cc-daemon-1001/a053acd9/control.sock
+[2026-09-08T15:02:16.118Z] [bg] bg spare spawned host pid=15215
+[2026-09-08T15:02:16.127Z] [bg] bg claimed-spare 97aa6c34 (slash)
+[2026-09-08T15:02:16.131Z] [bg] bg spawned 1b647878 (spare)
+[2026-09-08T15:02:16.146Z] [bg] bg spare spawned host pid=15220
+[2026-09-08T16:02:16.068Z] [bg] bg retire 1b647878: stale-spare, idle 60m
+[2026-09-08T16:02:16.173Z] [bg] bg settled 1b647878 (done)
+[2026-09-08T16:03:16.067Z] [bg] bg retire 97aa6c34: idle-prompt, idle 61m
+[2026-09-08T16:03:16.165Z] [bg] bg settled 97aa6c34 (done)
+[2026-09-08T17:13:25.999Z] [bg] bg claimed-spare ab49f2cd (fleet)
+[2026-09-08T17:13:26.027Z] [bg] bg spare spawned host pid=60657
+[2026-09-08T17:13:26.031Z] [bg] bg claimed-spare 93386dee (spare)
+[2026-09-08T17:13:26.054Z] [bg] bg spare spawned host pid=60671
+[2026-09-08T18:14:16.176Z] [bg] bg retire 93386dee: stale-spare, idle 61m
+[2026-09-08T18:14:16.280Z] [bg] bg settled 93386dee (done)

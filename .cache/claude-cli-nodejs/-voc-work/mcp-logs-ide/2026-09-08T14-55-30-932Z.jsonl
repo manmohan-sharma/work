@@ -1,0 +1,3 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T14:55:47.480Z","sessionId":"65a0b3b9-5cdd-4953-9340-d88af7cac76b","cwd":"/voc/work"}
+{"debug":"Connection failed after 15ms: WebSocket is not open. Cannot start transport.","timestamp":"2026-09-08T14:55:47.493Z","sessionId":"65a0b3b9-5cdd-4953-9340-d88af7cac76b","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket is not open. Cannot start transport.","timestamp":"2026-09-08T14:55:47.493Z","sessionId":"65a0b3b9-5cdd-4953-9340-d88af7cac76b","cwd":"/voc/work"}

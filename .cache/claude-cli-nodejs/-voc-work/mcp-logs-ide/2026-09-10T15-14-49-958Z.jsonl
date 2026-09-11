@@ -1,0 +1,13 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T15:14:52.737Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 45ms","timestamp":"2026-09-10T15:14:52.760Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-10T15:14:52.760Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-10T15:14:52.814Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T15:15:01.100Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 63ms","timestamp":"2026-09-10T15:15:01.163Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T15:15:51.495Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T15:16:21.495Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T15:16:22.198Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T15:16:22.199Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 213ms","timestamp":"2026-09-10T15:16:22.411Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 213ms","timestamp":"2026-09-10T15:16:22.413Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 30s","timestamp":"2026-09-10T15:16:22.445Z","sessionId":"17ec4a4b-3cd0-473f-b139-0dcc0a0d3bf2","cwd":"/voc/work"}

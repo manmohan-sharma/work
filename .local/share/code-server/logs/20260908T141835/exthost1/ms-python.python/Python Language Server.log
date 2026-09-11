@@ -1,0 +1,33 @@
+2026-09-08 14:26:13.701 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-22:38
+2026-09-08 14:26:13.704 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 14:26:17.716 [info] [Debug - 2:26:17 PM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 14:28:00.712 [info] [Error - 2:28:00 PM] Server process exited with signal SIGTERM.
+2026-09-08 14:28:03.282 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 14:28:05.650 [info] [Debug - 2:28:05 PM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 14:46:43.934 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 14:46:43.965 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 0:0-31:49
+2026-09-08 14:46:45.319 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "11"
+
+2026-09-08 14:46:47.737 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py 
+2026-09-08 14:46:47.801 [info] [Debug - 2:46:47 PM] multiple definitions found for name "match" of type 'statement' (61:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 14:46:47.801 [info] [Debug - 2:46:47 PM] multiple definitions found for name "match" of type 'statement' (66:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 14:46:50.958 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py 
+2026-09-08 14:46:51.011 [info] [Debug - 2:46:51 PM] multiple definitions found for name "match" of type 'statement' (61:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 14:46:51.012 [info] [Debug - 2:46:51 PM] multiple definitions found for name "match" of type 'statement' (66:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 14:48:58.891 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 14:56:48.562 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 14:56:50.246 [info] [Debug - 2:56:50 PM] multiple definitions found for name "temp" of type 'statement' (26:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">

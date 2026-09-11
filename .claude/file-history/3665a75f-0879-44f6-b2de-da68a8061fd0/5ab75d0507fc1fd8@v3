@@ -1,0 +1,80 @@
+# Project Plan — Task Manager CLI
+
+**Goal:** Extend the starter into a working command-line task manager, meeting every
+requirement in `docs/project_rubric.md`.
+
+**Scope decision:** Keep the task-management domain from the starter and build it out
+properly. This reuses `TaskManager`, `FileHandler`, and the 15 existing tests, and all
+five patterns in `docs/design_patterns.md` fit the domain without being forced.
+
+**Documentation approach:** AI edit log entries are written *during* each phase, from
+what actually happened, then revised by the student. The final report is drafted at the
+end from those entries.
+
+---
+
+## Baseline (measured 2026-09-11, before any changes)
+
+| Check | Result |
+|---|---|
+| `pytest` | 15 passed |
+| Coverage | 88% total, `main.py` at 0% |
+| `flake8` | 51 errors (mostly W293 blank-line whitespace, W292 no newline at EOF) |
+| `black --check` | 7 files would be reformatted |
+| `mypy` | Passes, but only because functions are unannotated |
+| Git | Not a repository |
+
+---
+
+## Scope discipline
+
+This plan implements the rubric's stated requirements and nothing beyond them.
+Deliberately **excluded** as not asked for: git setup, `bandit` security scanning,
+`LICENSE.txt`, a fourth design pattern (Observer), due dates and tags on the task
+model, and a >90% coverage stretch goal. Several appear in the rubric's optional
+"Suggestions to Make Your Project Stand Out" list; none are requirements.
+
+## Phase 0 — Foundation
+
+- [x] Add `pyproject.toml` (black line-length 88, isort `profile=black`, mypy settings,
+      pytest + coverage config) and a matching `.flake8` — black's 88 and flake8's
+      default 79 contradict each other until this exists. Required because
+      "all linting tools should pass without errors" is a submission requirement.
+- [x] Run `black .` and `isort .`; clear all 51 flake8 errors
+
+## Phase 1 — Define the application
+
+- [ ] Write the app's purpose and feature list into `README.md`
+
+## Phase 2 — Features (3 beyond basic CRUD, the rubric minimum)
+
+- [ ] **Strategy** — `utils/sorting.py`: sort and filter by priority, status, created date
+- [ ] **Factory** — `utils/exporters.py`: export to JSON, CSV, Markdown
+- [ ] **Command** — `utils/commands.py`: undo/redo for add, complete, delete
+- [ ] Add priority validation to `TaskManager` (the rubric requires input validation)
+- [ ] **CLI** — replace the demo `main.py` with a `click` app (`click` is already in
+      `requirements.txt` and currently unused). Not counted as one of the three
+      features; it is what makes this a "functional application" rather than a script.
+
+## Phase 3 — Testing
+
+- [ ] Unit tests for every new module — happy path, edge cases, and error conditions
+      (invalid priority, empty export, undo on an empty stack, corrupt JSON, missing file)
+- [ ] Make the CLI testable via `click.testing.CliRunner` so `main.py` is not a 0% hole
+- [ ] Confirm total coverage stays above the required 80%
+
+## Phase 4 — Documentation
+
+- [ ] `docs/ai_edit_log.md` — at least 5 entries in the template's format, capturing
+      real prompts, rejected suggestions, and bugs found in AI-generated code
+- [ ] `docs/final_report.md` from `docs/report_template.md`, 1000–1500 words, including
+      why each design pattern was chosen
+- [ ] Rewrite `README.md`: features, CLI usage examples, setup, dependencies
+- [ ] Generate the HTML coverage report (a submission requirement)
+
+## Phase 5 — Final verification
+
+- [ ] `black . && isort . && flake8 . && mypy . && pytest --cov=. --cov-report=html`
+      passes clean
+- [ ] Review the full codebase against `ai_guidance/code_review_checklist.md`
+- [ ] Confirm every row of `docs/project_rubric.md` is satisfied

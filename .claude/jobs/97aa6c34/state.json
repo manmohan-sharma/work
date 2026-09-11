@@ -1,0 +1,30 @@
+{
+  "state": "done",
+  "detail": "Note: shell state (like an activated venv) doesn't persist between my Bash calls — each command runs fresh, so `source` ",
+  "tempo": "idle",
+  "output": null,
+  "children": null,
+  "linkScanOffset": 0,
+  "template": "bg",
+  "respawnFlags": [
+    "--permission-mode",
+    "default",
+    "--model",
+    "claude-sonnet-5[1m]"
+  ],
+  "bgIsolation": "none",
+  "providerEnv": {},
+  "interactiveLineage": true,
+  "intent": "source /voc/work/.venv/bin/activate",
+  "name": "Phantom dependency exercise",
+  "nameSource": "auto",
+  "sessionId": "97aa6c34-e00c-47fb-9937-459cd0803e45",
+  "resumeSessionId": "97aa6c34-e00c-47fb-9937-459cd0803e45",
+  "daemonShort": "97aa6c34",
+  "cwd": "/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter",
+  "createdAt": "2026-09-08T15:02:15.707Z",
+  "updatedAt": "2026-09-08T16:03:16.166Z",
+  "firstTerminalAt": "2026-09-08T16:03:16.166Z",
+  "backend": "daemon",
+  "lastTerminalAt": "2026-09-08T16:03:16.166Z"
+}

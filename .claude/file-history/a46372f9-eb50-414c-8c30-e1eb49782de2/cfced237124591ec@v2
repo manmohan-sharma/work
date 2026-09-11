@@ -1,0 +1,78 @@
+"""
+Error hierarchy for the vocabulary builder.
+
+Every anticipated failure derives from ``VocabError``, so the CLI boundary can
+distinguish "something we predicted" from "a genuine crash" with a single
+except clause and report the former without a traceback.
+
+Lives in the domain layer because errors are part of the data contract, not of
+any particular implementation: storage raises StorageError, but so would a
+future SQLite backend.
+"""
+from typing import List, Optional
+
+
+class VocabError(Exception):
+    """Base class for every error raised by the vocabulary builder."""
+
+
+class DeckValidationError(VocabError):
+    """Raised when a record cannot be parsed into a valid Card or Deck.
+
+    Carries the deck name and record index where known, so the CLI can name the
+    offending entry instead of reporting a generic parse failure.
+
+    Attributes:
+        deck_name: Deck being loaded, if known.
+        record_index: Zero-based index of the offending record, if known.
+    """
+
+    def __init__(
+        self,
+        message: str,
+        deck_name: Optional[str] = None,
+        record_index: Optional[int] = None,
+    ) -> None:
+        """Store the message together with its location context.
+
+        Args:
+            message: Human-readable description of the problem.
+            deck_name: Deck being loaded when the failure occurred.
+            record_index: Index of the offending record within the deck.
+        """
+        location = ""
+        if deck_name is not None:
+            location = f" [deck={deck_name}"
+            if record_index is not None:
+                location += f", record={record_index}"
+            location += "]"
+        super().__init__(f"{message}{location}")
+        self.deck_name = deck_name
+        self.record_index = record_index
+
+
+class PolicyNotFoundError(VocabError):
+    """Raised when a requested scheduling policy name is not registered.
+
+    Attributes:
+        policy_name: The name that was requested.
+        available: Names that are registered, for the error message.
+    """
+
+    def __init__(self, policy_name: str, available: List[str]) -> None:
+        """Build a message that tells the learner what they can use instead.
+
+        Args:
+            policy_name: The unrecognised policy name.
+            available: Registered policy names.
+        """
+        super().__init__(
+            f"Unknown scheduling policy {policy_name!r}. "
+            f"Available: {', '.join(sorted(available)) or 'none registered'}"
+        )
+        self.policy_name = policy_name
+        self.available = list(available)
+
+
+class StorageError(VocabError):
+    """Raised when review state could not be persisted atomically."""

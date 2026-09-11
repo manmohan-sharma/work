@@ -1,0 +1,10 @@
+2026-09-08 15:22:16.055 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:22:16.106 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-26:70
+2026-09-08 15:22:17.167 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "5": _pickle.UnpicklingError: unpickling stack underflow
+NoneType: None
+
+2026-09-08 15:22:17.169 [info] [Error - 3:22:17 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:22:17.172 [info]   Message: _pickle.UnpicklingError: unpickling stack underflow
+  Code: -32603 
+[object Object]
+2026-09-08 15:22:18.389 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-26:70

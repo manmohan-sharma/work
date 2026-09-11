@@ -1,0 +1,65 @@
+2026-09-08 17:13:23.354 [info] Claude code extension is now active?
+2026-09-08 17:13:23.354 [info] MCP Server running on port 22668 (localhost only)
+2026-09-08 17:13:29.575 [info] Creating new Claude terminal
+2026-09-08 17:13:30.375 [info] Terminal shell integration available
+2026-09-08 17:13:38.768 [info] New WS connection from: /
+2026-09-08 17:13:38.770 [info] MCP server connected to transport
+2026-09-08 17:13:38.770 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-08 17:13:38.770 [info] Registered diagnostic client: client_0
+2026-09-08 17:13:39.271 [info] Logging event: run_claude_command undefined
+2026-09-08 17:16:43.134 [info] Closing all diff tabs in the editor...
+2026-09-08 17:16:43.135 [info] Closed 0 diff tabs.
+2026-09-08 17:18:58.580 [info] Closing all diff tabs in the editor...
+2026-09-08 17:18:58.581 [info] Closed 0 diff tabs.
+2026-09-08 17:20:19.809 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:20:26.573 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:20:58.020 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:21:15.472 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:21:18.272 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:21:20.335 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:22:05.364 [info] Closing all diff tabs in the editor...
+2026-09-08 17:22:05.364 [info] Closed 0 diff tabs.
+2026-09-08 17:23:50.721 [info] diff from /voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py to /voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py as ✻ [Claude Code] data_processor.py (051278) ⧉
+2026-09-08 17:23:50.924 [info] Closing all diff tabs in the editor...
+2026-09-08 17:23:50.924 [info] Closed 0 diff tabs.
+2026-09-08 17:23:51.256 [info] diff result undefined ✻ [Claude Code] data_processor.py (051278) ⧉ {"$mid":1,"external":"file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py","path":"/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py","path":"/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-08 17:24:14.885 [info] tab_closed ✻ [Claude Code] data_processor.py (051278) ⧉
+2026-09-08 17:24:16.114 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:25:46.086 [info] Closing all diff tabs in the editor...
+2026-09-08 17:25:46.088 [info] Closed 0 diff tabs.
+2026-09-08 17:26:17.135 [info] diff from /voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py to /voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py as ✻ [Claude Code] test_data_processor.py (97c78a) ⧉
+2026-09-08 17:26:17.467 [info] Closing all diff tabs in the editor...
+2026-09-08 17:26:17.467 [info] Closed 0 diff tabs.
+2026-09-08 17:26:17.659 [info] diff result undefined ✻ [Claude Code] test_data_processor.py (97c78a) ⧉ {"$mid":1,"external":"file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py","path":"/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py","path":"/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-08 17:26:18.359 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:26:32.377 [info] tab_closed ✻ [Claude Code] test_data_processor.py (97c78a) ⧉
+2026-09-08 17:26:33.662 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:26:50.987 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:28:12.382 [info] Closing all diff tabs in the editor...
+2026-09-08 17:28:12.384 [info] Closed 0 diff tabs.
+2026-09-08 17:29:17.352 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:29:17.534 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:39:53.382 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:40:03.613 [info] Closing all diff tabs in the editor...
+2026-09-08 17:40:03.613 [info] Closed 0 diff tabs.
+2026-09-08 17:40:31.860 [info] WS client disconnected
+2026-09-08 17:40:31.860 [info] [DiagnosticStreamManager] Unregistered client client_0. Total clients: 0
+2026-09-08 17:40:31.860 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-08 17:40:31.860 [info] Unregistered diagnostic client: client_0
+2026-09-08 17:40:31.889 [info] New WS connection from: /
+2026-09-08 17:40:31.889 [info] MCP server connected to transport
+2026-09-08 17:40:31.894 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-08 17:40:31.894 [info] Registered diagnostic client: client_1
+2026-09-08 17:40:42.170 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:40:44.421 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:40:46.613 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:40:51.242 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:40:51.534 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:41:10.996 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 17:41:39.849 [info] Closing all diff tabs in the editor...
+2026-09-08 17:41:39.849 [info] Closed 0 diff tabs.
+2026-09-08 17:46:06.778 [info] Closing all diff tabs in the editor...
+2026-09-08 17:46:06.780 [info] Closed 0 diff tabs.
+2026-09-08 17:54:51.025 [info] Closing all diff tabs in the editor...
+2026-09-08 17:54:51.027 [info] Closed 0 diff tabs.
+2026-09-08 17:57:25.275 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files

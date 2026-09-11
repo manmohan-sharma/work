@@ -1,0 +1,202 @@
+2026-09-08 17:13:23.324 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2"
+
+2026-09-08 17:13:23.762 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 17:13:24.932 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 17:13:25.174 [info] [Debug - 5:13:25 PM] multiple definitions found for name "temp" of type 'statement' (27:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 17:13:26.691 [info] [Debug - 5:13:26 PM] multiple definitions found for name "temp" of type 'statement' (27:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 17:20:18.813 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 17:20:18.818 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "16"
+
+2026-09-08 17:20:19.232 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 0:0-34:57
+2026-09-08 17:20:25.572 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py 
+2026-09-08 17:20:25.627 [info] [Debug - 5:20:25 PM] multiple definitions found for name "match" of type 'statement' (61:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 17:20:25.628 [info] [Debug - 5:20:25 PM] multiple definitions found for name "match" of type 'statement' (66:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 17:20:37.065 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 17:20:58.277 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py 
+2026-09-08 17:20:58.338 [info] [Debug - 5:20:58 PM] multiple definitions found for name "match" of type 'statement' (61:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 17:20:58.339 [info] [Debug - 5:20:58 PM] multiple definitions found for name "match" of type 'statement' (66:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 17:21:14.452 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 17:21:17.398 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py 
+2026-09-08 17:21:17.456 [info] [Debug - 5:21:17 PM] multiple definitions found for name "match" of type 'statement' (61:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 17:21:17.456 [info] [Debug - 5:21:17 PM] multiple definitions found for name "match" of type 'statement' (66:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 17:21:19.486 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 17:21:22.057 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 17:21:23.843 [info] [Debug - 5:21:23 PM] multiple definitions found for name "temp" of type 'statement' (27:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 17:23:52.846 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 17:23:54.579 [info] [Debug - 5:23:54 PM] multiple definitions found for name "temp" of type 'statement' (27:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 17:24:16.667 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 17:24:17.120 [info] [Debug - 5:24:17 PM] no matching semantic token for "__name__" of type 'statement' (24:27)
+2026-09-08 17:24:17.138 [info] [Debug - 5:24:17 PM] no definitions found for name "field" of type 'statement' (57:57)
+2026-09-08 17:26:18.163 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 0:0-20:31
+2026-09-08 17:26:18.217 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 17:26:18.352 [info] [Debug - 5:26:18 PM] no definitions found for name "raises" of type 'statement' (55:20)
+2026-09-08 17:26:18.353 [info] [Debug - 5:26:18 PM] no definitions found for name "raises" of type 'statement' (64:20)
+2026-09-08 17:26:18.358 [info] [Debug - 5:26:18 PM] no definitions found for name "raises" of type 'statement' (70:20)
+2026-09-08 17:26:18.358 [info] [Debug - 5:26:18 PM] no definitions found for name "raises" of type 'statement' (135:20)
+2026-09-08 17:26:33.867 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 17:26:33.874 [info] [Debug - 5:26:33 PM] no matching semantic token for "__name__" of type 'statement' (24:27)
+2026-09-08 17:26:34.017 [info] [Debug - 5:26:34 PM] no definitions found for name "field" of type 'statement' (57:57)
+2026-09-08 17:39:52.342 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 
+2026-09-08 17:39:52.629 [info] [Debug - 5:39:52 PM] no definitions found for name "module bcrypt" of type 'module' (22:7)
+2026-09-08 17:39:52.752 [info] [Debug - 5:39:52 PM] no definitions found for name "bcrypt" of type 'statement' (36:15)
+2026-09-08 17:39:52.752 [info] [Debug - 5:39:52 PM] no definitions found for name "checkpw" of type 'statement' (36:22)
+2026-09-08 17:39:52.820 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 0:0-24:50
+2026-09-08 17:39:52.826 [info] [Debug - 5:39:52 PM] no definitions found for name "module bcrypt" of type 'module' (22:7)
+2026-09-08 17:39:55.209 [info] [Debug - 5:39:55 PM] no definitions found for name "encode" of type 'statement' (36:39)
+2026-09-08 17:39:55.212 [info] [Debug - 5:39:55 PM] no definitions found for name "bcrypt" of type 'statement' (56:17)
+2026-09-08 17:39:55.214 [info] [Debug - 5:39:55 PM] no definitions found for name "hashpw" of type 'statement' (56:24)
+2026-09-08 17:39:55.220 [info] [Debug - 5:39:55 PM] no definitions found for name "bcrypt" of type 'statement' (56:62)
+2026-09-08 17:39:55.220 [info] [Debug - 5:39:55 PM] no definitions found for name "gensalt" of type 'statement' (56:69)
+2026-09-08 17:39:55.224 [info] [Debug - 5:39:55 PM] no definitions found for name "bcrypt" of type 'statement' (60:17)
+2026-09-08 17:39:55.224 [info] [Debug - 5:39:55 PM] no definitions found for name "hashpw" of type 'statement' (60:24)
+2026-09-08 17:39:55.224 [info] [Debug - 5:39:55 PM] no definitions found for name "bcrypt" of type 'statement' (60:57)
+2026-09-08 17:39:55.224 [info] [Debug - 5:39:55 PM] no definitions found for name "gensalt" of type 'statement' (60:64)
+2026-09-08 17:40:42.689 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 
+2026-09-08 17:40:42.696 [info] [Debug - 5:40:42 PM] no definitions found for name "module bcrypt" of type 'module' (22:7)
+2026-09-08 17:40:42.712 [info] [Debug - 5:40:42 PM] no definitions found for name "bcrypt" of type 'statement' (36:15)
+2026-09-08 17:40:42.712 [info] [Debug - 5:40:42 PM] no definitions found for name "checkpw" of type 'statement' (36:22)
+2026-09-08 17:40:44.390 [info] [Debug - 5:40:44 PM] no definitions found for name "encode" of type 'statement' (36:39)
+2026-09-08 17:40:44.393 [info] [Debug - 5:40:44 PM] no definitions found for name "bcrypt" of type 'statement' (56:17)
+2026-09-08 17:40:44.394 [info] [Debug - 5:40:44 PM] no definitions found for name "hashpw" of type 'statement' (56:24)
+2026-09-08 17:40:44.399 [info] [Debug - 5:40:44 PM] no definitions found for name "bcrypt" of type 'statement' (56:62)
+2026-09-08 17:40:44.399 [info] [Debug - 5:40:44 PM] no definitions found for name "gensalt" of type 'statement' (56:69)
+2026-09-08 17:40:44.404 [info] [Debug - 5:40:44 PM] no definitions found for name "bcrypt" of type 'statement' (60:17)
+2026-09-08 17:40:44.404 [info] [Debug - 5:40:44 PM] no definitions found for name "hashpw" of type 'statement' (60:24)
+2026-09-08 17:40:44.404 [info] [Debug - 5:40:44 PM] no definitions found for name "bcrypt" of type 'statement' (60:57)
+2026-09-08 17:40:44.408 [info] [Debug - 5:40:44 PM] no definitions found for name "gensalt" of type 'statement' (60:64)
+2026-09-08 17:40:44.906 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 
+2026-09-08 17:40:44.911 [info] [Debug - 5:40:44 PM] no definitions found for name "module bcrypt" of type 'module' (22:7)
+2026-09-08 17:40:44.927 [info] [Debug - 5:40:44 PM] no definitions found for name "bcrypt" of type 'statement' (36:15)
+2026-09-08 17:40:44.927 [info] [Debug - 5:40:44 PM] no definitions found for name "checkpw" of type 'statement' (36:22)
+2026-09-08 17:40:46.038 [info] [Debug - 5:40:46 PM] no definitions found for name "encode" of type 'statement' (36:39)
+2026-09-08 17:40:46.041 [info] [Debug - 5:40:46 PM] no definitions found for name "bcrypt" of type 'statement' (56:17)
+2026-09-08 17:40:46.043 [info] [Debug - 5:40:46 PM] no definitions found for name "hashpw" of type 'statement' (56:24)
+2026-09-08 17:40:46.047 [info] [Debug - 5:40:46 PM] no definitions found for name "bcrypt" of type 'statement' (56:62)
+2026-09-08 17:40:46.047 [info] [Debug - 5:40:46 PM] no definitions found for name "gensalt" of type 'statement' (56:69)
+2026-09-08 17:40:46.048 [info] [Debug - 5:40:46 PM] no definitions found for name "bcrypt" of type 'statement' (60:17)
+2026-09-08 17:40:46.052 [info] [Debug - 5:40:46 PM] no definitions found for name "hashpw" of type 'statement' (60:24)
+2026-09-08 17:40:46.052 [info] [Debug - 5:40:46 PM] no definitions found for name "bcrypt" of type 'statement' (60:57)
+2026-09-08 17:40:46.052 [info] [Debug - 5:40:46 PM] no definitions found for name "gensalt" of type 'statement' (60:64)
+2026-09-08 17:40:46.385 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 17:40:46.392 [info] [Debug - 5:40:46 PM] no matching semantic token for "__name__" of type 'statement' (24:27)
+2026-09-08 17:40:46.409 [info] [Debug - 5:40:46 PM] no definitions found for name "field" of type 'statement' (57:57)
+2026-09-08 17:40:47.085 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 
+2026-09-08 17:40:47.091 [info] [Debug - 5:40:47 PM] no definitions found for name "module bcrypt" of type 'module' (22:7)
+2026-09-08 17:40:47.107 [info] [Debug - 5:40:47 PM] no definitions found for name "bcrypt" of type 'statement' (36:15)
+2026-09-08 17:40:47.107 [info] [Debug - 5:40:47 PM] no definitions found for name "checkpw" of type 'statement' (36:22)
+2026-09-08 17:40:48.657 [info] [Debug - 5:40:48 PM] no definitions found for name "encode" of type 'statement' (36:39)
+2026-09-08 17:40:48.660 [info] [Debug - 5:40:48 PM] no definitions found for name "bcrypt" of type 'statement' (56:17)
+2026-09-08 17:40:48.662 [info] [Debug - 5:40:48 PM] no definitions found for name "hashpw" of type 'statement' (56:24)
+2026-09-08 17:40:48.666 [info] [Debug - 5:40:48 PM] no definitions found for name "bcrypt" of type 'statement' (56:62)
+2026-09-08 17:40:48.667 [info] [Debug - 5:40:48 PM] no definitions found for name "gensalt" of type 'statement' (56:69)
+2026-09-08 17:40:48.667 [info] [Debug - 5:40:48 PM] no definitions found for name "bcrypt" of type 'statement' (60:17)
+2026-09-08 17:40:48.667 [info] [Debug - 5:40:48 PM] no definitions found for name "hashpw" of type 'statement' (60:24)
+2026-09-08 17:40:48.668 [info] [Debug - 5:40:48 PM] no definitions found for name "bcrypt" of type 'statement' (60:57)
+2026-09-08 17:40:48.672 [info] [Debug - 5:40:48 PM] no definitions found for name "gensalt" of type 'statement' (60:64)
+2026-09-08 17:45:23.871 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 
+2026-09-08 17:45:25.697 [info] [Debug - 5:45:25 PM] no definitions found for name "encode" of type 'statement' (36:39)
+2026-09-08 17:57:26.150 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 
+2026-09-08 17:57:26.692 [info] [Debug - 5:57:26 PM] no matching semantic token for "__name__" of type 'statement' (37:27)
+2026-09-08 17:57:26.725 [info] [Debug - 5:57:26 PM] no matching semantic token for "conn.row_factory = sqlite3.Row" of type 'statement' (110:9)
+2026-09-08 17:57:26.748 [info] [Debug - 5:57:26 PM] multiple definitions found for name "self._failures: dict[str, list[float]] = {}" of type 'statement' (171:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.751 [info] [Debug - 5:57:26 PM] multiple definitions found for name "self._locked_until: dict[str, float] = {}" of type 'statement' (172:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 17:57:26.759 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_locked_until" of type 'statement' (179:25):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 17:57:26.786 [info] [Debug - 5:57:26 PM] multiple definitions found for name "get" of type 'statement' (179:39):
+ <Name full_name='typing.Mapping.get', description='def get'>
+<Name full_name='typing.Mapping.get', description='def get'>
+2026-09-08 17:57:26.787 [info] [Debug - 5:57:26 PM] multiple definitions found for name "del self._locked_until[key]" of type 'statement' (185:21):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 17:57:26.793 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_failures" of type 'statement' (186:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.801 [info] [Debug - 5:57:26 PM] multiple definitions found for name "pop" of type 'statement' (186:27):
+ <Name full_name='typing.MutableMapping.pop', description='def pop'>
+<Name full_name='typing.MutableMapping.pop', description='def pop'>
+2026-09-08 17:57:26.804 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_failures" of type 'statement' (194:40):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.818 [info] [Debug - 5:57:26 PM] multiple definitions found for name "get" of type 'statement' (194:50):
+ <Name full_name='typing.Mapping.get', description='def get'>
+<Name full_name='typing.Mapping.get', description='def get'>
+2026-09-08 17:57:26.818 [info] [Debug - 5:57:26 PM] no definitions found for name "t" of type 'statement' (194:72)
+2026-09-08 17:57:26.846 [info] [Debug - 5:57:26 PM] multiple definitions found for name "self._failures[key] = attempts" of type 'statement' (196:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.848 [info] [Debug - 5:57:26 PM] multiple definitions found for name "self._locked_until[key] = now + self._lockout" of type 'statement' (198:21):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 17:57:26.851 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_failures" of type 'statement' (205:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.864 [info] [Debug - 5:57:26 PM] multiple definitions found for name "pop" of type 'statement' (205:27):
+ <Name full_name='typing.MutableMapping.pop', description='def pop'>
+<Name full_name='typing.MutableMapping.pop', description='def pop'>
+2026-09-08 17:57:26.864 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_locked_until" of type 'statement' (206:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 17:57:26.878 [info] [Debug - 5:57:26 PM] multiple definitions found for name "pop" of type 'statement' (206:31):
+ <Name full_name='typing.MutableMapping.pop', description='def pop'>
+<Name full_name='typing.MutableMapping.pop', description='def pop'>
+2026-09-08 17:57:26.878 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_failures" of type 'statement' (211:20):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.882 [info] [Debug - 5:57:26 PM] multiple definitions found for name "self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }" of type 'statement' (213:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.882 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_failures" of type 'statement' (215:35):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 17:57:26.891 [info] [Debug - 5:57:26 PM] multiple definitions found for name "items" of type 'statement' (215:45):
+ <Name name='items', description='def items'>
+<Name full_name='builtins.dict.items', description='def items'>
+2026-09-08 17:57:26.892 [info] [Debug - 5:57:26 PM] no definitions found for name "times" of type 'statement' (216:51)
+2026-09-08 17:57:26.895 [info] [Debug - 5:57:26 PM] multiple definitions found for name "self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }" of type 'statement' (218:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 17:57:26.895 [info] [Debug - 5:57:26 PM] multiple definitions found for name "_locked_until" of type 'statement' (219:46):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 17:57:26.903 [info] [Debug - 5:57:26 PM] multiple definitions found for name "items" of type 'statement' (219:60):
+ <Name name='items', description='def items'>
+<Name full_name='builtins.dict.items', description='def items'>
+2026-09-08 17:57:26.904 [info] [Debug - 5:57:26 PM] no definitions found for name "until" of type 'statement' (219:77)
+2026-09-08 17:57:26.908 [info] [Debug - 5:57:26 PM] no matching semantic token for "row_factory" of type 'statement' (239:22)
+2026-09-08 17:57:26.926 [info] [Debug - 5:57:26 PM] multiple definitions found for name "matched" of type 'statement' (297:30):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.UserAuth.login.matched', description='matched = False'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.UserAuth.login.matched', description='matched = bcrypt.checkpw(encoded, stored_hash or _DUMMY_HASH)'>
+2026-09-08 17:57:26.970 [info] [Debug - 5:57:26 PM] multiple definitions found for name "compare_digest" of type 'statement' (331:20):
+ <Name full_name='hmac.compare_digest', description='compare_digest = _hashopenssl.compare_digest'>
+<Name full_name='_operator._compare_digest', description='module compare_digest'>
+2026-09-08 17:57:26.982 [info] [Debug - 5:57:26 PM] no matching semantic token for "rowcount" of type 'statement' (353:22)
+2026-09-08 17:57:26.989 [info] [Debug - 5:57:26 PM] no matching semantic token for "rowcount" of type 'statement' (368:63)
+2026-09-08 17:57:26.991 [info] [Debug - 5:57:26 PM] no matching semantic token for "rowcount" of type 'statement' (369:22)
+2026-09-08 17:57:27.311 [info] [Debug - 5:57:27 PM] no matching semantic token for "rowcount" of type 'statement' (382:22)
+2026-09-08 17:57:28.993 [info] [Debug - 5:57:28 PM] no definitions found for name "strip" of type 'statement' (408:24)
+2026-09-08 17:57:28.996 [info] [Debug - 5:57:28 PM] no definitions found for name "encode" of type 'statement' (423:27)

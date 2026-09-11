@@ -1,0 +1,216 @@
+2026-09-08 15:07:27.410 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2"
+
+2026-09-08 15:07:27.410 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1"
+
+2026-09-08 15:07:27.755 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:07:27.760 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:07:27.913 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "6": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:27.916 [info] [Error - 3:07:27 PM] Request textDocument/semanticTokens/full failed.
+2026-09-08 15:07:27.920 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:28.640 [info] [Debug - 3:07:28 PM] multiple definitions found for name "temp" of type 'statement' (27:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 15:07:32.572 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:07:32.576 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "14": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:32.576 [info] [Error - 3:07:32 PM] Request textDocument/semanticTokens/full failed.
+2026-09-08 15:07:32.576 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:32.630 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:07:32.632 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "15": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:32.633 [info] [Error - 3:07:32 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:07:32.633 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:34.023 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/test_data_processor.py 
+2026-09-08 15:07:37.780 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "21"
+
+2026-09-08 15:07:37.780 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "20"
+
+2026-09-08 15:07:37.786 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "22"
+
+2026-09-08 15:07:37.794 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:07:37.797 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:07:37.799 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "26"
+
+2026-09-08 15:07:37.800 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "25": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:37.803 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "24"
+ERROR:pygls.protocol.json_rpc:Exception occurred for message "26": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "23"
+
+2026-09-08 15:07:37.804 [info] [Error - 3:07:37 PM] Request textDocument/semanticTokens/full failed.
+2026-09-08 15:07:37.804 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:37.804 [info] [Error - 3:07:37 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:07:37.808 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:37.843 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 28 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/cache.py", line 110, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 191, in type
+    return value.api_type
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 336, in __getattr__
+    return getattr(self._wrapped_value, name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/__init__.py", line 34, in __getattribute__
+    return super().__getattribute__(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/utils.py", line 67, in wrapper
+    return func(*args, **kwds)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/cache.py", line 112, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 344, in _wrapped_value
+    return self._get_wrapped_value()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/__init__.py", line 37, in _get_wrapped_value
+    instance, = builtin_from_name(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/__init__.py", line 16, in builtin_from_name
+    name, = filter_.get(string)
+ValueError: not enough values to unpack (expected 1, got 0)
+
+2026-09-08 15:07:37.843 [info] [Error - 3:07:37 PM] Request textDocument/documentSymbol failed.
+2026-09-08 15:07:37.847 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:37.848 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py 
+2026-09-08 15:07:37.864 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 30 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/cache.py", line 110, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 191, in type
+    return value.api_type
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 336, in __getattr__
+    return getattr(self._wrapped_value, name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/__init__.py", line 34, in __getattribute__
+    return super().__getattribute__(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/utils.py", line 67, in wrapper
+    return func(*args, **kwds)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/cache.py", line 112, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 344, in _wrapped_value
+    return self._get_wrapped_value()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/__init__.py", line 37, in _get_wrapped_value
+    instance, = builtin_from_name(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/__init__.py", line 16, in builtin_from_name
+    name, = filter_.get(string)
+ValueError: not enough values to unpack (expected 1, got 0)
+
+2026-09-08 15:07:37.865 [info] [Error - 3:07:37 PM] Request textDocument/documentSymbol failed.
+2026-09-08 15:07:37.870 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:37.870 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/solution/test_data_processor.py 30:0-77:55
+2026-09-08 15:07:37.903 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "29": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-08 15:07:37.904 [info] [Error - 3:07:37 PM] Request textDocument/semanticTokens/full failed.
+2026-09-08 15:07:37.910 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:37.929 [info] [Debug - 3:07:37 PM] multiple definitions found for name "match" of type 'statement' (61:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 15:07:37.930 [info] [Debug - 3:07:37 PM] multiple definitions found for name "match" of type 'statement' (66:39):
+ <Name name='match', description='param match: str | re.Pattern[str] | None=...'>
+<Name name='match', description='param match: str | re.Pattern[str]'>
+2026-09-08 15:07:38.488 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:07:38.491 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "35": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:38.493 [info] [Error - 3:07:38 PM] Request textDocument/semanticTokens/full failed.
+2026-09-08 15:07:38.493 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:38.602 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:07:38.605 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "36": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:38.607 [info] [Error - 3:07:38 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:07:38.607 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:51.839 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:07:51.843 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "40": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:51.847 [info] [Error - 3:07:51 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:07:51.847 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:52.501 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-28:0
+2026-09-08 15:07:52.504 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "41": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:52.506 [info] [Error - 3:07:52 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:07:52.506 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:54.145 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:07:54.148 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "44": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:54.152 [info] [Error - 3:07:54 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:07:54.152 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:07:55.990 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:07:55.993 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "47": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:07:55.995 [info] [Error - 3:07:55 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:07:55.995 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:08:48.296 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:08:48.299 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "48": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:08:48.299 [info] [Error - 3:08:48 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:08:48.299 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]

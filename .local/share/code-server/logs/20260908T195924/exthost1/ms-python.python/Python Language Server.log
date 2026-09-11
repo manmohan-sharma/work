@@ -1,0 +1,103 @@
+2026-09-08 20:00:27.679 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 
+2026-09-08 20:00:27.793 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept2-authentication-security-review/starter/user_auth.py 0:0-38:0
+2026-09-08 20:00:28.090 [info] [Debug - 8:00:28 PM] no matching semantic token for "__name__" of type 'statement' (37:27)
+2026-09-08 20:00:28.103 [info] [Debug - 8:00:28 PM] no definitions found for name "getLogger" of type 'statement' (37:17)
+2026-09-08 20:00:28.103 [info] [Debug - 8:00:28 PM] no matching semantic token for "__name__" of type 'statement' (37:27)
+2026-09-08 20:00:28.201 [info] [Debug - 8:00:28 PM] no matching semantic token for "conn.row_factory = sqlite3.Row" of type 'statement' (110:9)
+2026-09-08 20:00:28.248 [info] [Debug - 8:00:28 PM] multiple definitions found for name "self._failures: dict[str, list[float]] = {}" of type 'statement' (171:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.249 [info] [Debug - 8:00:28 PM] multiple definitions found for name "self._locked_until: dict[str, float] = {}" of type 'statement' (172:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 20:00:28.258 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_locked_until" of type 'statement' (179:25):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 20:00:28.292 [info] [Debug - 8:00:28 PM] multiple definitions found for name "get" of type 'statement' (179:39):
+ <Name full_name='typing.Mapping.get', description='def get'>
+<Name full_name='typing.Mapping.get', description='def get'>
+2026-09-08 20:00:28.293 [info] [Debug - 8:00:28 PM] multiple definitions found for name "del self._locked_until[key]" of type 'statement' (185:21):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 20:00:28.297 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_failures" of type 'statement' (186:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.310 [info] [Debug - 8:00:28 PM] multiple definitions found for name "pop" of type 'statement' (186:27):
+ <Name full_name='typing.MutableMapping.pop', description='def pop'>
+<Name full_name='typing.MutableMapping.pop', description='def pop'>
+2026-09-08 20:00:28.313 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_failures" of type 'statement' (194:40):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.328 [info] [Debug - 8:00:28 PM] multiple definitions found for name "get" of type 'statement' (194:50):
+ <Name full_name='typing.Mapping.get', description='def get'>
+<Name full_name='typing.Mapping.get', description='def get'>
+2026-09-08 20:00:28.328 [info] [Debug - 8:00:28 PM] no definitions found for name "t" of type 'statement' (194:72)
+2026-09-08 20:00:28.361 [info] [Debug - 8:00:28 PM] multiple definitions found for name "self._failures[key] = attempts" of type 'statement' (196:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.363 [info] [Debug - 8:00:28 PM] multiple definitions found for name "self._locked_until[key] = now + self._lockout" of type 'statement' (198:21):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 20:00:28.366 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_failures" of type 'statement' (205:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.379 [info] [Debug - 8:00:28 PM] multiple definitions found for name "pop" of type 'statement' (205:27):
+ <Name full_name='typing.MutableMapping.pop', description='def pop'>
+<Name full_name='typing.MutableMapping.pop', description='def pop'>
+2026-09-08 20:00:28.385 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_locked_until" of type 'statement' (206:17):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 20:00:28.395 [info] [Debug - 8:00:28 PM] multiple definitions found for name "pop" of type 'statement' (206:31):
+ <Name full_name='typing.MutableMapping.pop', description='def pop'>
+<Name full_name='typing.MutableMapping.pop', description='def pop'>
+2026-09-08 20:00:28.396 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_failures" of type 'statement' (211:20):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.399 [info] [Debug - 8:00:28 PM] multiple definitions found for name "self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }" of type 'statement' (213:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.399 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_failures" of type 'statement' (215:35):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._failures', description='self._failures: dict[str, list[float]] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._failures', description='self._failures = { key: times for key, times in self._failures.items() if any(now - t < self._window for t in times) }'>
+2026-09-08 20:00:28.411 [info] [Debug - 8:00:28 PM] multiple definitions found for name "items" of type 'statement' (215:45):
+ <Name full_name='builtins.dict.items', description='def items'>
+<Name name='items', description='def items'>
+2026-09-08 20:00:28.412 [info] [Debug - 8:00:28 PM] no definitions found for name "times" of type 'statement' (216:51)
+2026-09-08 20:00:28.416 [info] [Debug - 8:00:28 PM] multiple definitions found for name "self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }" of type 'statement' (218:13):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 20:00:28.416 [info] [Debug - 8:00:28 PM] multiple definitions found for name "_locked_until" of type 'statement' (219:46):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter.__init__._locked_until', description='self._locked_until: dict[str, float] = {}'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.RateLimiter._prune._locked_until', description='self._locked_until = { key: until for key, until in self._locked_until.items() if now < until }'>
+2026-09-08 20:00:28.425 [info] [Debug - 8:00:28 PM] multiple definitions found for name "items" of type 'statement' (219:60):
+ <Name full_name='builtins.dict.items', description='def items'>
+<Name name='items', description='def items'>
+2026-09-08 20:00:28.425 [info] [Debug - 8:00:28 PM] no definitions found for name "until" of type 'statement' (219:77)
+2026-09-08 20:00:28.427 [info] [Debug - 8:00:28 PM] no matching semantic token for "row_factory" of type 'statement' (239:22)
+2026-09-08 20:00:28.430 [info] [Debug - 8:00:28 PM] no definitions found for name "info" of type 'statement' (261:19)
+2026-09-08 20:00:28.435 [info] [Debug - 8:00:28 PM] no definitions found for name "info" of type 'statement' (266:19)
+2026-09-08 20:00:28.435 [info] [Debug - 8:00:28 PM] no definitions found for name "warning" of type 'statement' (272:19)
+2026-09-08 20:00:28.441 [info] [Debug - 8:00:28 PM] no definitions found for name "exception" of type 'statement' (282:19)
+2026-09-08 20:00:28.443 [info] [Debug - 8:00:28 PM] no definitions found for name "exception" of type 'statement' (294:19)
+2026-09-08 20:00:28.446 [info] [Debug - 8:00:28 PM] multiple definitions found for name "matched" of type 'statement' (297:30):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.UserAuth.login.matched', description='matched = False'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept2-authentication-security-review.starter.user_auth.UserAuth.login.matched', description='matched = bcrypt.checkpw(encoded, stored_hash or _DUMMY_HASH)'>
+2026-09-08 20:00:28.446 [info] [Debug - 8:00:28 PM] no definitions found for name "warning" of type 'statement' (299:23)
+2026-09-08 20:00:28.446 [info] [Debug - 8:00:28 PM] no definitions found for name "info" of type 'statement' (300:19)
+2026-09-08 20:00:28.447 [info] [Debug - 8:00:28 PM] no definitions found for name "exception" of type 'statement' (306:19)
+2026-09-08 20:00:28.450 [info] [Debug - 8:00:28 PM] no definitions found for name "info" of type 'statement' (310:15)
+2026-09-08 20:00:28.454 [info] [Debug - 8:00:28 PM] no definitions found for name "exception" of type 'statement' (326:19)
+2026-09-08 20:00:28.461 [info] [Debug - 8:00:28 PM] multiple definitions found for name "compare_digest" of type 'statement' (331:20):
+ <Name full_name='hmac.compare_digest', description='compare_digest = _hashopenssl.compare_digest'>
+<Name full_name='_operator._compare_digest', description='module compare_digest'>
+2026-09-08 20:00:28.466 [info] [Debug - 8:00:28 PM] no definitions found for name "info" of type 'statement' (336:19)
+2026-09-08 20:00:28.471 [info] [Debug - 8:00:28 PM] no definitions found for name "exception" of type 'statement' (351:19)
+2026-09-08 20:00:28.473 [info] [Debug - 8:00:28 PM] no matching semantic token for "rowcount" of type 'statement' (353:22)
+2026-09-08 20:00:28.477 [info] [Debug - 8:00:28 PM] no definitions found for name "exception" of type 'statement' (366:19)
+2026-09-08 20:00:28.480 [info] [Debug - 8:00:28 PM] no definitions found for name "info" of type 'statement' (368:15)
+2026-09-08 20:00:28.480 [info] [Debug - 8:00:28 PM] no matching semantic token for "rowcount" of type 'statement' (368:63)
+2026-09-08 20:00:28.482 [info] [Debug - 8:00:28 PM] no matching semantic token for "rowcount" of type 'statement' (369:22)
+2026-09-08 20:00:28.668 [info] [Debug - 8:00:28 PM] no definitions found for name "exception" of type 'statement' (380:19)
+2026-09-08 20:00:28.670 [info] [Debug - 8:00:28 PM] no matching semantic token for "rowcount" of type 'statement' (382:22)
+2026-09-08 20:00:30.438 [info] [Debug - 8:00:30 PM] no definitions found for name "strip" of type 'statement' (408:24)
+2026-09-08 20:00:30.442 [info] [Debug - 8:00:30 PM] no definitions found for name "encode" of type 'statement' (423:27)

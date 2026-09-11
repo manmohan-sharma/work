@@ -1,0 +1,105 @@
+2026-09-11 09:04:02.738 [info] semantic_tokens_full file:///voc/work/project/starter/utils/file_handler.py 
+2026-09-11 09:04:02.800 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-38:75
+2026-09-11 09:04:02.979 [info] [Debug - 9:04:02 AM] no definitions found for name "module Path" of type 'module' (10:20)
+2026-09-11 09:04:02.979 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "3": _pickle.UnpicklingError: unpickling stack underflow
+NoneType: None
+
+2026-09-11 09:04:02.982 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "2": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:02.983 [info] [Error - 9:04:02 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:02.987 [info]   Message: _pickle.UnpicklingError: unpickling stack underflow
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:02.988 [info] [Error - 9:04:02 AM] Request textDocument/semanticTokens/full failed.
+2026-09-11 09:04:02.991 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:17.943 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-40:49
+2026-09-11 09:04:17.947 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "4": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:17.948 [info] [Error - 9:04:17 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:17.951 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:19.013 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-44:49
+2026-09-11 09:04:19.101 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "5": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:19.102 [info] [Error - 9:04:19 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:19.105 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:20.730 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-53:0
+2026-09-11 09:04:20.734 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "6": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:20.735 [info] [Error - 9:04:20 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:20.738 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:24.417 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-38:75
+2026-09-11 09:04:24.422 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "7": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:24.422 [info] [Error - 9:04:24 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:24.426 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:31.616 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-38:75
+2026-09-11 09:04:31.621 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "8": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:31.622 [info] [Error - 9:04:31 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:31.622 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:32.040 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-38:75
+2026-09-11 09:04:32.044 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "9": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:32.045 [info] [Error - 9:04:32 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:32.047 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:36.250 [info] semantic_tokens_range file:///voc/work/project/starter/utils/file_handler.py 0:0-38:75
+2026-09-11 09:04:36.255 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "10": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:36.255 [info] [Error - 9:04:36 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:36.259 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:45.911 [info] semantic_tokens_range file:///voc/work/project/starter/tests/test_file_handler.py 0:0-38:71
+2026-09-11 09:04:45.916 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "12": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:45.917 [info] [Error - 9:04:45 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:45.917 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:46.272 [info] semantic_tokens_full file:///voc/work/project/starter/tests/test_file_handler.py 
+2026-09-11 09:04:46.277 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "13": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:46.277 [info] [Error - 9:04:46 AM] Request textDocument/semanticTokens/full failed.
+2026-09-11 09:04:46.281 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:47.859 [info] semantic_tokens_range file:///voc/work/project/starter/tests/test_task_manager.py 0:0-38:49
+2026-09-11 09:04:47.865 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "15": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:47.865 [info] [Error - 9:04:47 AM] Request textDocument/semanticTokens/range failed.
+2026-09-11 09:04:47.868 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]
+2026-09-11 09:04:48.196 [info] semantic_tokens_full file:///voc/work/project/starter/tests/test_task_manager.py 
+2026-09-11 09:04:48.203 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "16": _pickle.UnpicklingError: invalid load key, ' '.
+NoneType: None
+
+2026-09-11 09:04:48.203 [info] [Error - 9:04:48 AM] Request textDocument/semanticTokens/full failed.
+2026-09-11 09:04:48.207 [info]   Message: _pickle.UnpicklingError: invalid load key, ' '.
+  Code: -32603 
+[object Object]

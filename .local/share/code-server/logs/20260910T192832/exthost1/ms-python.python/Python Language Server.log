@@ -1,0 +1,163 @@
+2026-09-10 19:43:59.255 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/cli_interface_v2.py 
+2026-09-10 19:43:59.262 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/cli_interface_v2.py 0:0-30:34
+2026-09-10 19:44:02.758 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (14:27)
+2026-09-10 19:44:02.758 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (14:27)
+2026-09-10 19:44:02.941 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (17:12)
+2026-09-10 19:44:02.941 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (18:12)
+2026-09-10 19:44:02.946 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (19:12)
+2026-09-10 19:44:02.956 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (21:31)
+2026-09-10 19:44:02.956 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (21:31)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "sorted" of type 'statement' (22:36)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "items" of type 'statement' (22:48)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "items" of type 'statement' (22:48)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (23:16)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (25:12)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (26:32)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (26:32)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (27:12)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (28:12)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "print" of type 'statement' (31:12)
+2026-09-10 19:44:02.961 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (35:31)
+2026-09-10 19:44:02.965 [info] [Debug - 7:44:02 PM] no definitions found for name "items" of type 'statement' (36:45)
+2026-09-10 19:44:02.965 [info] [Debug - 7:44:02 PM] no definitions found for name "get" of type 'statement' (40:32)
+2026-09-10 19:44:38.018 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/cli_interface_v2.py 
+2026-09-10 19:44:39.231 [info] [Debug - 7:44:39 PM] no definitions found for name "get" of type 'statement' (32:27)
+2026-09-10 19:44:39.235 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (35:12)
+2026-09-10 19:44:39.236 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (36:12)
+2026-09-10 19:44:39.236 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (37:12)
+2026-09-10 19:44:39.239 [info] [Debug - 7:44:39 PM] no definitions found for name "get" of type 'statement' (39:31)
+2026-09-10 19:44:39.241 [info] [Debug - 7:44:39 PM] no definitions found for name "sorted" of type 'statement' (40:36)
+2026-09-10 19:44:39.244 [info] [Debug - 7:44:39 PM] no definitions found for name "items" of type 'statement' (40:48)
+2026-09-10 19:44:39.248 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (41:16)
+2026-09-10 19:44:39.248 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (43:12)
+2026-09-10 19:44:39.253 [info] [Debug - 7:44:39 PM] no definitions found for name "get" of type 'statement' (44:32)
+2026-09-10 19:44:39.253 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (45:12)
+2026-09-10 19:44:39.253 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (46:12)
+2026-09-10 19:44:39.253 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (49:12)
+2026-09-10 19:44:39.253 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (50:12)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (51:12)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "get" of type 'statement' (53:31)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "sorted" of type 'statement' (54:33)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "items" of type 'statement' (54:45)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (55:16)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (57:12)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "get" of type 'statement' (58:32)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (59:12)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (60:12)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (62:12)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "str" of type 'statement' (66:20)
+2026-09-10 19:44:39.258 [info] [Debug - 7:44:39 PM] no definitions found for name "lower" of type 'statement' (68:31)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "lower" of type 'statement' (68:67)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (69:12)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (70:12)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (71:12)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (72:12)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "lower" of type 'statement' (73:36)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "lower" of type 'statement' (73:68)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (74:12)
+2026-09-10 19:44:39.262 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (75:12)
+2026-09-10 19:44:39.266 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (76:12)
+2026-09-10 19:44:39.266 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (77:12)
+2026-09-10 19:44:39.266 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (79:12)
+2026-09-10 19:44:39.266 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (80:12)
+2026-09-10 19:44:39.266 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (81:12)
+2026-09-10 19:44:39.266 [info] [Debug - 7:44:39 PM] no definitions found for name "print" of type 'statement' (82:12)
+2026-09-10 19:45:25.802 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/cli_interface_v2.py 
+2026-09-10 19:45:26.946 [info] [Debug - 7:45:26 PM] no definitions found for name "get" of type 'statement' (40:27)
+2026-09-10 19:45:26.949 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "7": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-10 19:45:26.951 [info] [Error - 7:45:26 PM] Request textDocument/semanticTokens/full failed.
+2026-09-10 19:45:26.955 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-10 19:45:34.338 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/cli_interface_v2.py 
+2026-09-10 19:45:35.655 [info] [Debug - 7:45:35 PM] no definitions found for name "get" of type 'statement' (40:27)
+2026-09-10 19:45:35.659 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "9": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-10 19:45:35.661 [info] [Error - 7:45:35 PM] Request textDocument/semanticTokens/full failed.
+2026-09-10 19:45:35.661 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-10 19:46:21.502 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/cli_interface_v2.py 
+2026-09-10 19:46:22.687 [info] [Debug - 7:46:22 PM] no definitions found for name "get" of type 'statement' (47:27)
+2026-09-10 19:46:22.690 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "11": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-10 19:46:22.692 [info] [Error - 7:46:22 PM] Request textDocument/semanticTokens/full failed.
+2026-09-10 19:46:22.692 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-10 19:51:22.750 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/test_refactoring_improvements.py 16:0-69:38
+2026-09-10 19:51:23.237 [info] [Debug - 7:51:23 PM] no matching semantic token for "__file__" of type 'statement' (25:15)
+2026-09-10 19:51:23.327 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "13": AssertionError
+NoneType: None
+
+2026-09-10 19:51:23.327 [info] [Error - 7:51:23 PM] Request textDocument/semanticTokens/range failed.
+2026-09-10 19:51:23.331 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-09-10 19:51:24.003 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/test_refactoring_improvements.py 
+2026-09-10 19:51:24.607 [info] [Debug - 7:51:24 PM] no matching semantic token for "__file__" of type 'statement' (25:15)
+2026-09-10 19:51:24.613 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "14": AssertionError
+NoneType: None
+
+2026-09-10 19:51:24.613 [info] [Error - 7:51:24 PM] Request textDocument/semanticTokens/full failed.
+2026-09-10 19:51:24.617 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-09-10 20:01:12.666 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/tests/test_report_modes_characterization.py 84:0-139:91
+2026-09-10 20:01:12.831 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "16": AssertionError
+NoneType: None
+
+2026-09-10 20:01:12.831 [info] [Error - 8:01:12 PM] Request textDocument/semanticTokens/range failed.
+2026-09-10 20:01:12.835 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-09-10 20:01:13.973 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/tests/test_report_modes_characterization.py 
+2026-09-10 20:01:15.991 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "17": AssertionError
+NoneType: None
+
+2026-09-10 20:01:15.991 [info] [Error - 8:01:15 PM] Request textDocument/semanticTokens/full failed.
+2026-09-10 20:01:15.995 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-09-10 20:02:32.536 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/expense_tracker/reports/report_mode.py 126:0-170:0
+2026-09-10 20:02:32.558 [info] [Debug - 8:02:32 PM] no definitions found for name "str" of type 'statement' (133:33)
+2026-09-10 20:02:33.841 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/expense_tracker/reports/report_mode.py 
+2026-09-10 20:02:34.019 [info] [Debug - 8:02:34 PM] no definitions found for name "str" of type 'statement' (62:71)
+2026-09-10 20:02:34.019 [info] [Debug - 8:02:34 PM] no definitions found for name "str" of type 'statement' (133:33)
+2026-09-10 20:02:34.025 [info] [Debug - 8:02:34 PM] no definitions found for name "str" of type 'statement' (183:71)
+2026-09-10 20:02:34.449 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "20": AssertionError
+NoneType: None
+
+2026-09-10 20:02:34.450 [info] [Error - 8:02:34 PM] Request textDocument/semanticTokens/full failed.
+2026-09-10 20:02:34.456 [info]   Message: AssertionError
+  Code: -32603 
+[object Object]
+2026-09-10 20:03:10.182 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/expense_tracker/reports/report_mode.py 0:0-57:56
+2026-09-10 20:03:11.842 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept4-ai-refactoring-collaboration/starter/expense_tracker/reports/report_mode.py 
+2026-09-10 20:03:11.877 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (62:71)
+2026-09-10 20:03:11.877 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (133:33)
+2026-09-10 20:03:11.882 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (189:11)
+2026-09-10 20:03:11.886 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "23": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (190:18)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (194:53)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "Dict" of type 'statement' (199:27)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (199:32)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "Dict" of type 'statement' (199:37)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (199:42)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "Any" of type 'statement' (199:47)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "Tuple" of type 'statement' (200:14)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (200:20)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "Dict" of type 'statement' (200:25)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (200:30)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "Any" of type 'statement' (200:35)
+2026-09-10 20:03:11.886 [info] [Debug - 8:03:11 PM] no definitions found for name "str" of type 'statement' (203:71)
+2026-09-10 20:03:11.886 [info] [Error - 8:03:11 PM] Request textDocument/semanticTokens/full failed.
+2026-09-10 20:03:11.890 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]

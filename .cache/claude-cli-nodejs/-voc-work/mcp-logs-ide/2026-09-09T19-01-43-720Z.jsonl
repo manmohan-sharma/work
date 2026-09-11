@@ -1,0 +1,6 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-09T19:01:46.485Z","sessionId":"4f4e4453-32fa-445a-9e5c-6355382bf345","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 44ms","timestamp":"2026-09-09T19:01:46.523Z","sessionId":"4f4e4453-32fa-445a-9e5c-6355382bf345","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-09T19:01:46.524Z","sessionId":"4f4e4453-32fa-445a-9e5c-6355382bf345","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-09T19:01:46.566Z","sessionId":"4f4e4453-32fa-445a-9e5c-6355382bf345","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-09T19:02:04.930Z","sessionId":"4f4e4453-32fa-445a-9e5c-6355382bf345","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 56ms","timestamp":"2026-09-09T19:02:04.986Z","sessionId":"4f4e4453-32fa-445a-9e5c-6355382bf345","cwd":"/voc/work"}

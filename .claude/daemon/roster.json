@@ -1,0 +1,68 @@
+{
+  "proto": 1,
+  "supervisorPid": 15189,
+  "updatedAt": 1788891256316,
+  "workers": {
+    "ab49f2cd": {
+      "pid": 15220,
+      "procStart": "8666664",
+      "sessionId": "ab49f2cd-1b81-41d7-93ca-82a42e8313e3",
+      "rendezvousSock": "/tmp/cc-daemon-1001/a053acd9/rv/ab49f2cd.sock",
+      "ptySock": "/tmp/cc-daemon-1001/a053acd9/spare/c8150e8d.pty.sock",
+      "cliVersion": "2.1.260",
+      "startedAt": 1788887605998,
+      "attempt": 1,
+      "cwd": "/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter",
+      "dispatch": {
+        "proto": 1,
+        "short": "ab49f2cd",
+        "nonce": "5ff44d8f",
+        "sessionId": "ab49f2cd-1b81-41d7-93ca-82a42e8313e3",
+        "createdAt": 1788887605993,
+        "source": "fleet",
+        "cwd": "/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter",
+        "launch": {
+          "mode": "prompt",
+          "args": [
+            "--session-id",
+            "ab49f2cd-1b81-41d7-93ca-82a42e8313e3",
+            "--agent",
+            "claude",
+            "--inherit-permission-mode",
+            "default",
+            "--",
+            "source /voc/work/.venv/bin/activate"
+          ],
+          "restoresTranscript": false
+        },
+        "env": {},
+        "isolation": "none",
+        "respawnFlags": [
+          "--agent",
+          "claude",
+          "--inherit-permission-mode",
+          "default"
+        ],
+        "agent": "claude",
+        "seed": {
+          "intent": "source /voc/work/.venv/bin/activate"
+        },
+        "cols": 101,
+        "rows": 2
+      },
+      "decModes": [
+        1000,
+        1002,
+        1003,
+        1006,
+        2004,
+        2031,
+        1004
+      ],
+      "rvAuth": "9ebeb822367225e6b3cc1326f787ef10",
+      "ptyAuth": "b1fb9561b3b1f4caae50e16be6b13f0a",
+      "replPid": 15242,
+      "replProcStart": "8666681"
+    }
+  }
+}

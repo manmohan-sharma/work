@@ -1,0 +1,205 @@
+"""
+Characterization tests for report_mode.py — the refactoring safety net.
+
+These tests do NOT assert that the reports are *correct*. They assert that the
+reports are *unchanged*. Every expected value here was captured from the
+implementation as it stood before any refactoring, including any quirks.
+
+Why this file exists:
+    tests/test_report_modes.py contains 13 test methods, all of which are empty
+    `pass` stubs with TODO comments. They report success without executing a
+    single line of report_mode.py, which sat at 22% coverage. Refactoring
+    against that suite would be unprotected — every report could break while
+    the suite stayed green.
+
+    This file is written to be replaced. Once the stubs in test_report_modes.py
+    are implemented as real behavioral tests, these characterization tests have
+    served their purpose and can go.
+
+Note on the golden strings:
+    Full report output is compared byte-for-byte. Substring assertions would not
+    catch column misalignment, lost separators or reordered rows — exactly the
+    damage a formatting refactor causes.
+"""
+
+import re
+from datetime import date
+from decimal import Decimal
+
+import pytest
+
+from expense_tracker.domain.exceptions import EmptyDatasetError
+from expense_tracker.domain.models import Transaction
+from expense_tracker.reports.report_mode import (
+    CategorySummaryReport,
+    MonthlyTotalsReport,
+    TopExpensesReport,
+)
+
+
+@pytest.fixture
+def transactions():
+    """Spans multiple categories, multiple months, and repeated groups."""
+    return [
+        Transaction(date(2025, 1, 15), Decimal('42.50'), 'Food', 'Lunch'),
+        Transaction(date(2025, 1, 16), Decimal('120.00'), 'Transport', 'Metro pass'),
+        Transaction(date(2025, 1, 17), Decimal('35.00'), 'Food', 'Groceries'),
+        Transaction(date(2025, 2, 3), Decimal('450.00'), 'Electronics', 'Keyboard'),
+        Transaction(date(2025, 2, 14), Decimal('12.25'), 'Food', 'Coffee'),
+        Transaction(date(2025, 3, 1), Decimal('1500.00'), 'Rent', 'March rent'),
+    ]
+
+
+@pytest.fixture
+def single_transaction():
+    """Minimum viable dataset: one group, one row."""
+    return [Transaction(date(2025, 6, 9), Decimal('9.99'), 'Food', 'Sandwich')]
+
+
+class TestCategorySummaryCharacterization:
+    """Pin the exact rendering of CategorySummaryReport."""
+
+    def test_full_report_output(self, transactions):
+        """Complete output, byte-for-byte, sorted by total descending."""
+        expected = (
+            "Category Summary Report\n"
+            "==================================================\n"
+            "Category                    Total    Count        Avg\n"
+            "--------------------------------------------------\n"
+            "Rent                 $   1,500.00        1 $ 1,500.00\n"
+            "Electronics          $     450.00        1 $   450.00\n"
+            "Transport            $     120.00        1 $   120.00\n"
+            "Food                 $      89.75        3 $    29.92\n"
+            "--------------------------------------------------\n"
+            "TOTAL                $   2,159.75        6 $   359.96"
+        )
+        assert CategorySummaryReport().process_transactions(transactions) == expected
+
+    def test_single_transaction_output(self, single_transaction):
+        """One transaction renders one data row plus the total row."""
+        expected = (
+            "Category Summary Report\n"
+            "==================================================\n"
+            "Category                    Total    Count        Avg\n"
+            "--------------------------------------------------\n"
+            "Food                 $       9.99        1 $     9.99\n"
+            "--------------------------------------------------\n"
+            "TOTAL                $       9.99        1 $     9.99"
+        )
+        assert CategorySummaryReport().process_transactions(single_transaction) == expected
+
+    def test_empty_raises(self):
+        """Empty input raises EmptyDatasetError with its current message."""
+        with pytest.raises(EmptyDatasetError,
+                           match="Cannot generate report from empty transaction list"):
+            CategorySummaryReport().process_transactions([])
+
+    def test_report_name(self):
+        assert CategorySummaryReport().get_report_name() == "Category Summary"
+
+
+class TestMonthlyTotalsCharacterization:
+    """Pin the exact rendering of MonthlyTotalsReport."""
+
+    def test_full_report_output(self, transactions):
+        """Complete output, byte-for-byte, sorted chronologically."""
+        expected = (
+            "Monthly Totals Report\n"
+            "==================================================\n"
+            "Month                  Total    Count        Avg\n"
+            "--------------------------------------------------\n"
+            "2025-01         $     197.50        3 $    65.83\n"
+            "2025-02         $     462.25        2 $   231.13\n"
+            "2025-03         $   1,500.00        1 $ 1,500.00\n"
+            "--------------------------------------------------\n"
+            "TOTAL           $   2,159.75        6 $   359.96"
+        )
+        assert MonthlyTotalsReport().process_transactions(transactions) == expected
+
+    def test_empty_raises(self):
+        with pytest.raises(EmptyDatasetError,
+                           match="Cannot generate report from empty transaction list"):
+            MonthlyTotalsReport().process_transactions([])
+
+    def test_report_name(self):
+        assert MonthlyTotalsReport().get_report_name() == "Monthly Totals"
+
+
+class TestTopExpensesCharacterization:
+    """Pin the exact rendering of TopExpensesReport."""
+
+    def test_full_report_output(self, transactions):
+        """Top 3 by amount descending, with the 80-char rules."""
+        expected = (
+            "Top 3 Expenses Report\n"
+            "================================================================================\n"
+            "Date               Amount Category             Description                   \n"
+            "--------------------------------------------------------------------------------\n"
+            "2025-03-01 $   1,500.00 Rent                 March rent                    \n"
+            "2025-02-03 $     450.00 Electronics          Keyboard                      \n"
+            "2025-01-16 $     120.00 Transport            Metro pass                    \n"
+            "--------------------------------------------------------------------------------\n"
+            "TOTAL (top 3)  $   2,070.00"
+        )
+        assert TopExpensesReport(top_n=3).process_transactions(transactions) == expected
+
+    def test_fewer_transactions_than_n_appends_note(self, single_transaction):
+        """Requesting more rows than exist appends the availability note."""
+        output = TopExpensesReport(top_n=5).process_transactions(single_transaction)
+        assert output.endswith("Note: Only 1 transaction(s) available")
+        assert "TOTAL (top 1)" in output
+
+    def test_long_description_is_truncated(self):
+        """Descriptions over 30 chars are cut to 27 plus an ellipsis."""
+        long_description = "A" * 50
+        txns = [Transaction(date(2025, 1, 1), Decimal('10.00'), 'Food', long_description)]
+
+        output = TopExpensesReport(top_n=1).process_transactions(txns)
+
+        assert ("A" * 27 + "...") in output
+        assert ("A" * 28 + "...") not in output
+
+    def test_empty_raises(self):
+        with pytest.raises(EmptyDatasetError,
+                           match="Cannot generate report from empty transaction list"):
+            TopExpensesReport().process_transactions([])
+
+    def test_report_name_includes_n(self):
+        assert TopExpensesReport(top_n=7).get_report_name() == "Top 7 Expenses"
+
+
+class TestSharedStructureCharacterization:
+    """
+    Pin the properties the Category and Monthly reports have in common.
+
+    These are the invariants a de-duplicating refactor is most likely to break,
+    because they are exactly what the two implementations currently duplicate.
+    """
+
+    @pytest.mark.parametrize("report_class", [CategorySummaryReport, MonthlyTotalsReport])
+    def test_panel_rules_are_50_wide(self, report_class, transactions):
+        lines = report_class().process_transactions(transactions).split('\n')
+        assert lines[1] == "=" * 50
+        assert lines[3] == "-" * 50
+        assert lines[-2] == "-" * 50
+
+    @pytest.mark.parametrize("report_class", [CategorySummaryReport, MonthlyTotalsReport])
+    def test_total_row_is_last_and_matches_sum(self, report_class, transactions):
+        """The grand total equals the sum of the data rows above it."""
+        lines = report_class().process_transactions(transactions).split('\n')
+        total_line = lines[-1]
+        assert total_line.startswith("TOTAL")
+
+        data_rows = lines[4:-2]
+        row_sum = sum(Decimal(re.search(r'\$\s*([\d,]+\.\d\d)', row).group(1)
+                              .replace(',', ''))
+                      for row in data_rows)
+        assert row_sum == Decimal('2159.75')
+        assert "2,159.75" in total_line
+
+    @pytest.mark.parametrize("report_class", [CategorySummaryReport, MonthlyTotalsReport])
+    def test_row_count_matches_group_count(self, report_class, transactions):
+        """4 categories, 3 months - one data row each, no blank lines."""
+        expected_rows = {CategorySummaryReport: 4, MonthlyTotalsReport: 3}[report_class]
+        lines = report_class().process_transactions(transactions).split('\n')
+        assert len(lines[4:-2]) == expected_rows

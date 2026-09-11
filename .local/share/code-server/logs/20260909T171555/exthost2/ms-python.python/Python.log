@@ -1,0 +1,20 @@
+2026-09-09 19:01:22.521 [info] Telemetry level is off
+2026-09-09 19:01:22.521 [info] Experiments are disabled, only manually opted experiments are active.
+2026-09-09 19:01:22.521 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-09-09 19:01:22.521 [info] Starting Environment refresh
+2026-09-09 19:01:22.521 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-09 19:01:22.521 [info] > hatch env show --json
+2026-09-09 19:01:22.521 [info] cwd: .
+2026-09-09 19:01:22.521 [info] Python interpreter path: ./.venv/bin/python
+2026-09-09 19:01:22.529 [info] > ./.venv/bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-09 19:01:23.242 [info] > pyenv which python
+2026-09-09 19:01:23.242 [info] cwd: .
+2026-09-09 19:01:23.264 [info] Environments refresh finished (event): 772 milliseconds
+2026-09-09 19:01:23.264 [info] Environments refresh paths discovered: 772 milliseconds
+2026-09-09 19:01:23.266 [info] Environment refresh took 774 milliseconds
+2026-09-09 19:01:23.918 [info] Starting Jedi language server for work.
+2026-09-09 19:01:25.240 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-09 19:01:35.351 [info] > conda info --json
+2026-09-09 19:01:43.112 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-09 19:06:43.413 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-09 19:34:53.553 [info] Send text to terminal: source /voc/work/.venv/bin/activate

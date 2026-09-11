@@ -1,0 +1,12 @@
+2026-09-08 15:00:19.872 [info] Telemetry level is off
+2026-09-08 15:00:19.872 [info] Experiments are disabled, only manually opted experiments are active.
+2026-09-08 15:00:19.872 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-09-08 15:00:19.873 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-08 15:00:19.890 [info] > conda info --json
+2026-09-08 15:00:19.893 [info] Python interpreter path: ./.venv/bin/python
+2026-09-08 15:00:20.099 [info] > pyenv which python
+2026-09-08 15:00:20.099 [info] cwd: .
+2026-09-08 15:00:21.129 [info] Starting Jedi language server for work.
+2026-09-08 15:00:23.407 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-08 15:00:49.332 [info] Discover tests for workspace name: work - uri: /voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py
+2026-09-08 15:01:22.758 [info] Send text to terminal: source /voc/work/.venv/bin/activate

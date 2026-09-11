@@ -1,0 +1,24 @@
+2026-09-08 15:13:35.175 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1"
+
+2026-09-08 15:13:35.175 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2"
+
+2026-09-08 15:13:35.483 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:13:35.487 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:13:35.616 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "7": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:13:35.617 [info] [Error - 3:13:35 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:13:35.617 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:13:36.272 [info] [Debug - 3:13:36 PM] multiple definitions found for name "temp" of type 'statement' (27:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 15:13:46.714 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:13:46.717 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "21": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:13:46.721 [info] [Error - 3:13:46 PM] Request textDocument/semanticTokens/full failed.
+2026-09-08 15:13:46.721 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]

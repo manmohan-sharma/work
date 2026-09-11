@@ -1,0 +1,79 @@
+2026-09-11 08:43:03.808 [info] Telemetry level is off
+2026-09-11 08:43:03.808 [info] Experiments are disabled, only manually opted experiments are active.
+2026-09-11 08:43:03.808 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-09-11 08:43:03.808 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-11 08:43:03.808 [info] Python interpreter path: ./.venv/bin/python
+2026-09-11 08:43:04.524 [info] > pyenv which python
+2026-09-11 08:43:04.524 [info] cwd: .
+2026-09-11 08:43:05.254 [info] Starting Jedi language server for work.
+2026-09-11 08:44:53.843 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-11 09:02:37.818 [info] Running installed packages checker:  {
+  id: '/voc/work/.venv/bin/python',
+  sysPrefix: '/voc/work/.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: '/voc/work/.venv',
+  path: '/voc/work/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.14 (main, Apr  6 2024, 18:45:05) [GCC 9.4.0]',
+  version: {
+    raw: '3.10.14',
+    major: 3,
+    minor: 10,
+    patch: 14,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.10.14 ('.venv')",
+  detailedDisplayName: "Python 3.10.14 ('.venv': venv)",
+  type: 'Virtual'
+} /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py /voc/work/project/starter/pyproject.toml
+2026-09-11 09:02:37.819 [info] > ./.venv/bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py ./project/starter/pyproject.toml
+2026-09-11 09:02:38.213 [info] Running installed packages checker:  {
+  id: '/voc/work/.venv/bin/python',
+  sysPrefix: '/voc/work/.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: '/voc/work/.venv',
+  path: '/voc/work/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.14 (main, Apr  6 2024, 18:45:05) [GCC 9.4.0]',
+  version: {
+    raw: '3.10.14',
+    major: 3,
+    minor: 10,
+    patch: 14,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.10.14 ('.venv')",
+  detailedDisplayName: "Python 3.10.14 ('.venv': venv)",
+  type: 'Virtual'
+} /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py /voc/work/project/starter/pyproject.toml
+2026-09-11 09:02:38.213 [info] > ./.venv/bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py ./project/starter/pyproject.toml
+2026-09-11 09:03:18.412 [info] Discover tests for workspace name: work - uri: /voc/work/project/starter/pyproject.toml
+2026-09-11 09:03:39.938 [info] Running installed packages checker:  {
+  id: '/voc/work/.venv/bin/python',
+  sysPrefix: '/voc/work/.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: '/voc/work/.venv',
+  path: '/voc/work/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.14 (main, Apr  6 2024, 18:45:05) [GCC 9.4.0]',
+  version: {
+    raw: '3.10.14',
+    major: 3,
+    minor: 10,
+    patch: 14,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.10.14 ('.venv')",
+  detailedDisplayName: "Python 3.10.14 ('.venv': venv)",
+  type: 'Virtual'
+} /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py /voc/work/project/starter/pyproject.toml
+2026-09-11 09:03:39.938 [info] > ./.venv/bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py ./project/starter/pyproject.toml
+2026-09-11 09:03:43.584 [info] Discover tests for workspace name: work - uri: /voc/work/project/starter/pyproject.toml
+2026-09-11 09:03:46.298 [info] Discover tests for workspace name: work - uri: /voc/work/project/starter/pyproject.toml
+2026-09-11 09:04:02.029 [info] > conda info --json

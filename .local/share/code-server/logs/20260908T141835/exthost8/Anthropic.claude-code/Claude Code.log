@@ -1,0 +1,39 @@
+2026-09-08 15:21:23.939 [info] Claude code extension is now active?
+2026-09-08 15:21:23.939 [info] MCP Server running on port 38382 (localhost only)
+2026-09-08 15:22:04.820 [info] New WS connection from: /
+2026-09-08 15:22:04.823 [info] MCP server connected to transport
+2026-09-08 15:22:04.823 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-08 15:22:04.823 [info] Registered diagnostic client: client_0
+2026-09-08 15:22:16.762 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 15:22:17.786 [info] Logging event: run_claude_command undefined
+2026-09-08 15:22:17.786 [info] Creating new Claude terminal
+2026-09-08 15:22:18.572 [info] Terminal shell integration available
+2026-09-08 15:22:23.008 [info] New WS connection from: /
+2026-09-08 15:22:23.008 [info] Disconnecting previous WebSocket client
+2026-09-08 15:22:23.008 [info] [DiagnosticStreamManager] Unregistered client client_0. Total clients: 0
+2026-09-08 15:22:23.008 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-08 15:22:23.008 [info] Unregistered previous diagnostic client: client_0
+2026-09-08 15:22:23.008 [info] MCP server connected to transport
+2026-09-08 15:22:23.008 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-08 15:22:23.008 [info] Registered diagnostic client: client_1
+2026-09-08 15:22:23.010 [info] WS client disconnected
+2026-09-08 15:22:23.015 [info] New WS connection from: /
+2026-09-08 15:22:23.015 [info] Disconnecting previous WebSocket client
+2026-09-08 15:22:23.015 [info] [DiagnosticStreamManager] Unregistered client client_1. Total clients: 0
+2026-09-08 15:22:23.015 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-08 15:22:23.015 [info] Unregistered previous diagnostic client: client_1
+2026-09-08 15:22:23.015 [info] MCP server connected to transport
+2026-09-08 15:22:23.015 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-08 15:22:23.015 [info] Registered diagnostic client: client_2
+2026-09-08 15:22:23.033 [info] WS client disconnected
+2026-09-08 15:23:12.310 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 15:23:12.471 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-08 15:24:53.148 [info] Logging event: run_claude_command undefined
+2026-09-08 15:24:53.150 [info] Creating new Claude terminal
+2026-09-08 15:24:53.922 [info] Terminal shell integration available
+2026-09-08 16:15:39.642 [info] Closing all diff tabs in the editor...
+2026-09-08 16:15:39.644 [info] Closed 0 diff tabs.
+2026-09-08 16:15:49.470 [info] Closing all diff tabs in the editor...
+2026-09-08 16:15:49.471 [info] Closed 0 diff tabs.
+2026-09-08 16:16:02.488 [info] Closing all diff tabs in the editor...
+2026-09-08 16:16:02.488 [info] Closed 0 diff tabs.

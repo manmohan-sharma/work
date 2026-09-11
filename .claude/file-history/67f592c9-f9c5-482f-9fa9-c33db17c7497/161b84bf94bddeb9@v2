@@ -1,0 +1,88 @@
+vocab-builder/
+├── main.py                          # CLI entry point and composition root; the ONLY
+│                                    #   place concrete implementations are chosen
+├── interfaces.py                    # Shared contracts: SchedulingPolicy, CardRepository,
+│                                    #   Clock, SessionPresenter, SessionQueueBuilder
+├── domain/                          # Pure data. Imports nothing else in the package.
+│   ├── __init__.py
+│   ├── models.py                    # Card, ReviewState, Deck, Grade, ReviewEvent
+│   └── errors.py                    # VocabError hierarchy
+├── scheduling/                      # WHEN does a card come back (pure, no I/O)
+│   ├── __init__.py
+│   ├── sm2.py                       # SM-2: ease factor + interval maths
+│   ├── leitner.py                   # Leitner boxes; proves the OCP claim
+│   ├── fixed_interval.py            # Trivial policy, useful as a test baseline
+│   └── registry.py                  # name -> policy class; the extension seam
+├── session/                         # WHAT am I reviewing now, and orchestration
+│   ├── __init__.py
+│   ├── queue_builder.py             # Selection: due filter, ordering, new-card cap
+│   └── review_session.py            # Orchestrates queue -> present -> grade -> persist
+├── storage/                         # Persistence; owns all file-format knowledge
+│   ├── __init__.py
+│   ├── json_repository.py           # CardRepository over JSON; ATOMIC writes
+│   └── review_log.py                # Append-only review history (write-only path)
+├── stats/
+│   ├── __init__.py
+│   └── stats_reporter.py            # Retention, streak, maturity; only log consumer
+├── presentation/
+│   ├── __init__.py
+│   ├── cli_presenter.py             # Prompts, card display, grade input parsing
+│   └── formatters.py                # Turns stats data into terminal text
+├── utils/
+│   ├── __init__.py
+│   └── clock.py                     # SystemClock (prod) + FrozenClock (tests)
+├── tests/                           # Mirrors the source tree one-to-one
+│   ├── __init__.py
+│   ├── conftest.py                  # Shared fixtures: sample deck, FrozenClock, fakes
+│   ├── test_models.py               # Card/ReviewState validation
+│   ├── test_sm2.py                  # First review, streak, lapse, ease floor, max cap
+│   ├── test_leitner.py              # Box promotion/demotion
+│   ├── test_registry.py             # Lookup hit, miss, available_policies()
+│   ├── test_queue_builder.py        # Due filter, ordering, new cap, empty queue
+│   ├── test_review_session.py       # Orchestration via fake presenter + repository
+│   ├── test_json_repository.py      # Round-trip, malformed deck, ATOMIC-WRITE crash
+│   ├── test_stats_reporter.py       # Metrics over a synthetic review log
+│   ├── test_cli_presenter.py        # Grade input parsing, invalid input handling
+│   ├── test_integration.py          # Full session: deck in, updated state on disk
+│   └── fixtures/
+│       ├── sample_deck.json         # Happy-path deck with mixed review state
+│       ├── malformed_deck.json      # Missing fields, bad dates, duplicate ids
+│       └── empty_deck.json          # Zero cards; must produce an empty session
+├── data/
+│   └── decks/
+│       ├── spanish_basics.json      # Sample deck for manual runs and demos
+│       └── review_log.jsonl         # Append-only history (one JSON object per line)
+├── docs/
+│   ├── myproject_architecture_plan.md  # Alternatives, trade-offs, selected design
+│   └── adding_a_policy.md           # Step-by-step guide to a new algorithm
+├── README.md                        # Setup, usage, available policies
+└── requirements.txt                 # Empty: standard library only (kept for tooling)
+
+# ---------------------------------------------------------------------------
+# Naming conventions
+# ---------------------------------------------------------------------------
+#   packages  named for the QUESTION they answer, not the layer they sit in:
+#             scheduling/ = "when does it come back", session/ = "what now"
+#   modules   snake_case, named for the noun they own (queue_builder.py)
+#   classes   PascalCase, named for the role played (Sm2Policy, JsonCardRepository)
+#   tests     test_<module under test>.py, mirroring the source layout exactly
+#   fixtures  named for the CONDITION they represent (malformed_deck.json), so a
+#             failing test names its own scenario
+#
+# ---------------------------------------------------------------------------
+# Import path strategy
+# ---------------------------------------------------------------------------
+#   - Run as `python main.py review spanish_basics --policy sm2` from the project
+#     root; tests run with `pytest` from the same root, so both resolve the
+#     package imports identically with no sys.path manipulation.
+#   - domain/* imports NOTHING from the package. It is the graph's only leaf, which
+#     is what guarantees the design is acyclic.
+#   - scheduling/*, storage/*, and session/* import from `interfaces` and `domain`
+#     only. They never import each other's concrete classes.
+#   - review_session imports the ABCs from `interfaces`, never sm2/leitner or
+#     json_repository; main.py supplies the concrete instances. This is what keeps
+#     the session unit-testable with fakes and no filesystem.
+#   - NOTHING imports datetime.now() outside utils/clock.py. Every other module
+#     takes a Clock. Enforced by a grep in CI, because a single violation makes a
+#     scheduling test flaky in a way that is very hard to diagnose later.
+#   - Nothing imports main.py, which keeps the entry point free to change.

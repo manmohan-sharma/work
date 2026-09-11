@@ -1,0 +1,263 @@
+"""
+Pure data types for the vocabulary builder.
+
+This module is the leaf of the dependency graph: it imports nothing else from
+the package, which is what guarantees the design stays acyclic. Every type here
+is a frozen dataclass, so a scheduling policy physically cannot mutate the state
+it was handed — the property the whole test strategy rests on.
+
+Card content and review state are separate types on purpose. Content is
+authored once and rarely edited; state changes on every single review. Keeping
+them apart is what lets a learner edit a deck in a text editor without
+disturbing months of progress.
+"""
+from dataclasses import dataclass, field, replace
+from datetime import datetime
+from enum import IntEnum
+from typing import List, Optional
+
+from .errors import DeckValidationError
+
+DEFAULT_EASE_FACTOR = 2.5
+
+
+class Grade(IntEnum):
+    """Learner's self-assessed recall quality for a single card.
+
+    Ordered so comparisons express difficulty directly (``AGAIN < GOOD``).
+    Values follow the SM-2 convention: anything below ``GOOD`` is a lapse.
+    """
+
+    AGAIN = 0
+    HARD = 3
+    GOOD = 4
+    EASY = 5
+
+    @classmethod
+    def from_input(cls, raw_grade: str) -> "Grade":
+        """Parse a grade typed by the learner.
+
+        Accepts either the numeric value (``"0"``, ``"3"``, ``"4"``, ``"5"``) or
+        the name in any case (``"again"``, ``"Good"``).
+
+        Args:
+            raw_grade: Text entered at the grade prompt.
+
+        Returns:
+            The matching Grade.
+
+        Raises:
+            ValueError: If the text matches no grade. The message lists the
+                accepted values, because this runs in a tight review loop where
+                a vague error costs the learner their rhythm.
+        """
+        candidate = raw_grade.strip().lower()
+        for grade in cls:
+            if candidate in (str(grade.value), grade.name.lower()):
+                return grade
+        accepted = ", ".join(f"{g.value} ({g.name.lower()})" for g in cls)
+        raise ValueError(f"Unknown grade {raw_grade!r}. Expected one of: {accepted}")
+
+
+@dataclass(frozen=True)
+class Card:
+    """One vocabulary card: a prompt, its answer, and filtering metadata.
+
+    Immutable because a card is authored content, not runtime state. Scheduling
+    never inspects these fields, which is precisely why richer card types (audio,
+    images) can be added later without touching scheduling.
+
+    Attributes:
+        card_id: Stable identifier, unique within a deck.
+        term: The prompt side of the card.
+        definition: The answer side.
+        example: Example sentence providing usage context. May be empty.
+        tags: Labels used for filtering and per-topic statistics.
+
+    Raises:
+        DeckValidationError: If card_id, term or definition is blank.
+    """
+
+    card_id: str
+    term: str
+    definition: str
+    example: str = ""
+    tags: List[str] = field(default_factory=list)
+
+    def __post_init__(self) -> None:
+        """Reject cards that cannot be reviewed.
+
+        A card with no term shows the learner an empty prompt, and one with no
+        id cannot have its progress saved, so both are caught at construction
+        rather than surfacing mid-session.
+        """
+        for name in ("card_id", "term", "definition"):
+            if not str(getattr(self, name)).strip():
+                raise DeckValidationError(
+                    f"Card field {name!r} must not be empty "
+                    f"(card_id={self.card_id!r})"
+                )
+
+
+@dataclass(frozen=True)
+class ReviewState:
+    """A card's spaced-repetition state at a point in time.
+
+    Frozen so that scheduling policies must return a new instance instead of
+    editing the caller's object. ``evolve`` exists to make that cheap.
+
+    Attributes:
+        card_id: Identifies the card this state belongs to.
+        due_at: When the card next becomes eligible for review.
+        interval_days: Current spacing interval; 0 for a card never reviewed.
+        ease_factor: Multiplier applied to the interval on a successful review.
+        repetitions: Consecutive successful reviews; resets on a lapse.
+        last_reviewed_at: When the card was last graded; None if never reviewed.
+
+    Raises:
+        DeckValidationError: If any numeric field is negative.
+    """
+
+    card_id: str
+    due_at: datetime
+    interval_days: int = 0
+    ease_factor: float = DEFAULT_EASE_FACTOR
+    repetitions: int = 0
+    last_reviewed_at: Optional[datetime] = None
+
+    def __post_init__(self) -> None:
+        """Reject states that would corrupt interval maths.
+
+        A negative interval or ease factor would push a due date into the past
+        forever, silently turning the card into an infinite loop in the session
+        queue.
+        """
+        for name in ("interval_days", "ease_factor", "repetitions"):
+            value = getattr(self, name)
+            if value < 0:
+                raise DeckValidationError(
+                    f"ReviewState field {name!r} must not be negative, "
+                    f"got {value!r} (card_id={self.card_id!r})"
+                )
+
+    @property
+    def is_new(self) -> bool:
+        """True if the card has never been reviewed."""
+        return self.last_reviewed_at is None
+
+    def is_due(self, now: datetime) -> bool:
+        """Whether the card is eligible for review at ``now``.
+
+        Args:
+            now: Current time, supplied by the caller's Clock.
+
+        Returns:
+            True if the due date has arrived or passed.
+        """
+        return self.due_at <= now
+
+    def evolve(self, **changes) -> "ReviewState":
+        """Return a copy with ``changes`` applied.
+
+        Args:
+            **changes: Field values to override.
+
+        Returns:
+            A new ReviewState; the original is untouched.
+        """
+        return replace(self, **changes)
+
+    @classmethod
+    def new_for(cls, card_id: str, now: datetime) -> "ReviewState":
+        """Build the starting state for a card that has never been reviewed.
+
+        Args:
+            card_id: Card the state belongs to.
+            now: Current time; the card is due immediately.
+
+        Returns:
+            A state with zero interval, default ease and no review history.
+        """
+        return cls(card_id=card_id, due_at=now)
+
+
+@dataclass(frozen=True)
+class Deck:
+    """A named collection of cards paired with their review state.
+
+    Pairing happens at load time so the session layer receives one coherent
+    object rather than joining two sources itself.
+
+    Attributes:
+        name: Deck identifier, as used on the command line.
+        cards: The deck's cards, in authoring order.
+        states: One state per card.
+
+    Raises:
+        DeckValidationError: If card ids are duplicated, or if states do not
+            correspond one-to-one with cards.
+    """
+
+    name: str
+    cards: List[Card] = field(default_factory=list)
+    states: List[ReviewState] = field(default_factory=list)
+
+    def __post_init__(self) -> None:
+        """Enforce the pairing invariant at construction.
+
+        A state referring to a missing card means progress is being written for
+        something the learner cannot see — a corruption that is far cheaper to
+        catch here than to diagnose from a wrong-looking statistics report.
+        """
+        card_ids = [card.card_id for card in self.cards]
+        duplicates = {cid for cid in card_ids if card_ids.count(cid) > 1}
+        if duplicates:
+            raise DeckValidationError(
+                f"Deck {self.name!r} has duplicate card ids: "
+                f"{', '.join(sorted(duplicates))}"
+            )
+
+        state_ids = {state.card_id for state in self.states}
+        unmatched = state_ids - set(card_ids)
+        if unmatched:
+            raise DeckValidationError(
+                f"Deck {self.name!r} has review state for unknown card(s): "
+                f"{', '.join(sorted(unmatched))}"
+            )
+
+    def state_for(self, card_id: str) -> ReviewState:
+        """Return the review state belonging to ``card_id``.
+
+        Args:
+            card_id: Card whose state is wanted.
+
+        Returns:
+            The matching ReviewState.
+
+        Raises:
+            DeckValidationError: If the deck holds no state for that card.
+        """
+        for state in self.states:
+            if state.card_id == card_id:
+                return state
+        raise DeckValidationError(
+            f"Deck {self.name!r} has no review state for card {card_id!r}"
+        )
+
+
+@dataclass(frozen=True)
+class ReviewEvent:
+    """One entry in the append-only review log.
+
+    Exists so statistics can be derived without pushing history into the card
+    model, and so schedules can be re-derived if the learner switches algorithms.
+
+    Attributes:
+        card_id: Card that was reviewed.
+        grade: Grade the learner gave themselves.
+        reviewed_at: When the review happened.
+    """
+
+    card_id: str
+    grade: Grade
+    reviewed_at: datetime

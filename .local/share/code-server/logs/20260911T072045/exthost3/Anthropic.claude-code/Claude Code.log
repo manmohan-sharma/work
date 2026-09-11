@@ -1,0 +1,122 @@
+2026-09-11 08:43:04.818 [info] Claude code extension is now active?
+2026-09-11 08:43:04.818 [info] MCP Server running on port 26286 (localhost only)
+2026-09-11 08:44:53.464 [info] Creating new Claude terminal
+2026-09-11 08:44:54.231 [info] Terminal shell integration available
+2026-09-11 08:44:57.198 [info] New WS connection from: /
+2026-09-11 08:44:57.198 [info] MCP server connected to transport
+2026-09-11 08:44:57.201 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-11 08:44:57.201 [info] Registered diagnostic client: client_0
+2026-09-11 08:44:57.698 [info] Logging event: run_claude_command undefined
+2026-09-11 08:45:56.224 [info] Closing all diff tabs in the editor...
+2026-09-11 08:45:56.225 [info] Closed 0 diff tabs.
+2026-09-11 08:51:33.741 [info] diff from /voc/work/project/starter/docs/project_plan.md to /voc/work/project/starter/docs/project_plan.md as ✻ [Claude Code] project_plan.md (49f86e) ⧉
+2026-09-11 08:51:33.912 [info] leftTempFileProvider.createFile /voc/work/project/starter/docs/project_plan.md
+2026-09-11 08:51:34.072 [info] Closing all diff tabs in the editor...
+2026-09-11 08:51:34.072 [info] Closed 0 diff tabs.
+2026-09-11 08:51:34.254 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:51:34.374 [info] diff result undefined ✻ [Claude Code] project_plan.md (49f86e) ⧉ {"$mid":1,"path":"/voc/work/project/starter/docs/project_plan.md","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/docs/project_plan.md","path":"/voc/work/project/starter/docs/project_plan.md","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 08:51:34.425 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-11 08:51:34.655 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:51:34.856 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:52:00.665 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:54:08.782 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:54:08.982 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:54:10.811 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-11 08:54:10.839 [info] tab_closed ✻ [Claude Code] project_plan.md (49f86e) ⧉
+2026-09-11 08:54:34.125 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:55:46.697 [info] Closing all diff tabs in the editor...
+2026-09-11 08:55:46.698 [info] Closed 0 diff tabs.
+2026-09-11 08:56:34.025 [info] diff from /voc/work/project/starter/docs/project_plan.md to /voc/work/project/starter/docs/project_plan.md as ✻ [Claude Code] project_plan.md (c91510) ⧉
+2026-09-11 08:56:34.365 [info] Closing all diff tabs in the editor...
+2026-09-11 08:56:34.365 [info] Closed 0 diff tabs.
+2026-09-11 08:56:34.525 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:34.607 [info] diff result undefined ✻ [Claude Code] project_plan.md (c91510) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/docs/project_plan.md","path":"/voc/work/project/starter/docs/project_plan.md","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/docs/project_plan.md","path":"/voc/work/project/starter/docs/project_plan.md","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 08:56:34.661 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:34.725 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:34.925 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:35.125 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:43.802 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:43.820 [info] tab_closed ✻ [Claude Code] project_plan.md (c91510) ⧉
+2026-09-11 08:56:47.077 [info] diff from /voc/work/project/starter/docs/project_plan.md to /voc/work/project/starter/docs/project_plan.md as ✻ [Claude Code] project_plan.md (1b5425) ⧉
+2026-09-11 08:56:47.077 [info] Closing all diff tabs in the editor...
+2026-09-11 08:56:47.077 [info] Closed 0 diff tabs.
+2026-09-11 08:56:47.225 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:47.372 [info] diff result undefined ✻ [Claude Code] project_plan.md (1b5425) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/docs/project_plan.md","path":"/voc/work/project/starter/docs/project_plan.md","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/docs/project_plan.md","path":"/voc/work/project/starter/docs/project_plan.md","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 08:56:47.389 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-11 08:56:47.626 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:47.825 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 08:56:48.027 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:02:27.353 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-11 09:02:27.396 [info] tab_closed ✻ [Claude Code] project_plan.md (1b5425) ⧉
+2026-09-11 09:02:36.713 [info] diff from /voc/work/project/starter/pyproject.toml to /voc/work/project/starter/pyproject.toml as ✻ [Claude Code] pyproject.toml (a8a65a) ⧉
+2026-09-11 09:02:36.888 [info] leftTempFileProvider.createFile /voc/work/project/starter/pyproject.toml
+2026-09-11 09:02:37.811 [info] Closing all diff tabs in the editor...
+2026-09-11 09:02:37.812 [info] Closed 0 diff tabs.
+2026-09-11 09:02:38.210 [info] diff result undefined ✻ [Claude Code] pyproject.toml (a8a65a) ⧉ {"$mid":1,"path":"/voc/work/project/starter/pyproject.toml","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/pyproject.toml","path":"/voc/work/project/starter/pyproject.toml","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 09:03:17.832 [info] diff from /voc/work/project/starter/.flake8 to /voc/work/project/starter/.flake8 as ✻ [Claude Code] .flake8 (ce7ed7) ⧉
+2026-09-11 09:03:18.011 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:03:18.023 [info] leftTempFileProvider.createFile /voc/work/project/starter/.flake8
+2026-09-11 09:03:18.048 [info] tab_closed ✻ [Claude Code] pyproject.toml (a8a65a) ⧉
+2026-09-11 09:03:18.194 [info] Closing all diff tabs in the editor...
+2026-09-11 09:03:18.194 [info] Closed 0 diff tabs.
+2026-09-11 09:03:18.422 [info] diff result undefined ✻ [Claude Code] .flake8 (ce7ed7) ⧉ {"$mid":1,"path":"/voc/work/project/starter/.flake8","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/.flake8","path":"/voc/work/project/starter/.flake8","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 09:03:29.033 [info] tab_closed ✻ [Claude Code] .flake8 (ce7ed7) ⧉
+2026-09-11 09:03:29.070 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:03:39.737 [info] diff from /voc/work/project/starter/pyproject.toml to /voc/work/project/starter/pyproject.toml as ✻ [Claude Code] pyproject.toml (5589e9) ⧉
+2026-09-11 09:03:39.933 [info] Closing all diff tabs in the editor...
+2026-09-11 09:03:39.933 [info] Closed 0 diff tabs.
+2026-09-11 09:03:40.247 [info] diff result undefined ✻ [Claude Code] pyproject.toml (5589e9) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/pyproject.toml","path":"/voc/work/project/starter/pyproject.toml","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/pyproject.toml","path":"/voc/work/project/starter/pyproject.toml","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 09:03:43.108 [info] diff from /voc/work/project/starter/pyproject.toml to /voc/work/project/starter/pyproject.toml as ✻ [Claude Code] pyproject.toml (cf582c) ⧉
+2026-09-11 09:03:43.108 [info] Closing all diff tabs in the editor...
+2026-09-11 09:03:43.248 [info] tab_closed ✻ [Claude Code] pyproject.toml (5589e9) ⧉
+2026-09-11 09:03:43.288 [info] Closed 1 diff tabs.
+2026-09-11 09:03:43.677 [info] diff result undefined ✻ [Claude Code] pyproject.toml (cf582c) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/pyproject.toml","path":"/voc/work/project/starter/pyproject.toml","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/pyproject.toml","path":"/voc/work/project/starter/pyproject.toml","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 09:03:46.081 [info] tab_closed ✻ [Claude Code] pyproject.toml (cf582c) ⧉
+2026-09-11 09:04:01.470 [info] diff from /voc/work/project/starter/utils/file_handler.py to /voc/work/project/starter/utils/file_handler.py as ✻ [Claude Code] file_handler.py (c85c5c) ⧉
+2026-09-11 09:04:02.130 [info] Closing all diff tabs in the editor...
+2026-09-11 09:04:02.130 [info] Closed 0 diff tabs.
+2026-09-11 09:04:02.312 [info] diff result undefined ✻ [Claude Code] file_handler.py (c85c5c) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 09:04:02.764 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:04:45.195 [info] diff from /voc/work/project/starter/tests/test_file_handler.py to /voc/work/project/starter/tests/test_file_handler.py as ✻ [Claude Code] test_file_handler.py (b4e628) ⧉
+2026-09-11 09:04:45.360 [info] tab_closed ✻ [Claude Code] file_handler.py (c85c5c) ⧉
+2026-09-11 09:04:45.655 [info] Closing all diff tabs in the editor...
+2026-09-11 09:04:45.655 [info] Closed 0 diff tabs.
+2026-09-11 09:04:45.802 [info] diff result undefined ✻ [Claude Code] test_file_handler.py (b4e628) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/tests/test_file_handler.py","path":"/voc/work/project/starter/tests/test_file_handler.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/tests/test_file_handler.py","path":"/voc/work/project/starter/tests/test_file_handler.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 09:04:46.474 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:04:46.711 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:04:47.196 [info] diff from /voc/work/project/starter/tests/test_task_manager.py to /voc/work/project/starter/tests/test_task_manager.py as ✻ [Claude Code] test_task_manager.py (64cfa6) ⧉
+2026-09-11 09:04:47.304 [info] tab_closed ✻ [Claude Code] test_file_handler.py (b4e628) ⧉
+2026-09-11 09:04:47.608 [info] Closing all diff tabs in the editor...
+2026-09-11 09:04:47.608 [info] Closed 0 diff tabs.
+2026-09-11 09:04:47.755 [info] diff result undefined ✻ [Claude Code] test_task_manager.py (64cfa6) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/tests/test_task_manager.py","path":"/voc/work/project/starter/tests/test_task_manager.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/tests/test_task_manager.py","path":"/voc/work/project/starter/tests/test_task_manager.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-11 09:04:48.474 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:04:48.736 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:04:49.155 [info] tab_closed ✻ [Claude Code] test_task_manager.py (64cfa6) ⧉
+2026-09-11 09:04:50.353 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:05:37.867 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:06:05.381 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:06:18.269 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:06:39.952 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:07:01.685 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:07:02.213 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:07:45.448 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:07:45.666 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:07:47.482 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:07:47.670 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:10:22.180 [info] Closing all diff tabs in the editor...
+2026-09-11 09:10:22.181 [info] Closed 0 diff tabs.
+2026-09-11 09:12:28.735 [info] Closing all diff tabs in the editor...
+2026-09-11 09:12:28.736 [info] Closed 0 diff tabs.
+2026-09-11 09:13:34.114 [info] Closing all diff tabs in the editor...
+2026-09-11 09:13:34.116 [info] Closed 0 diff tabs.
+2026-09-11 09:14:27.468 [info] Closing all diff tabs in the editor...
+2026-09-11 09:14:27.468 [info] Closed 0 diff tabs.
+2026-09-11 09:23:05.195 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:23:05.397 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:23:05.494 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:30:12.274 [info] Closing all diff tabs in the editor...
+2026-09-11 09:30:12.275 [info] Closed 0 diff tabs.
+2026-09-11 09:33:47.848 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:33:48.048 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:33:48.146 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-11 09:52:18.094 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files

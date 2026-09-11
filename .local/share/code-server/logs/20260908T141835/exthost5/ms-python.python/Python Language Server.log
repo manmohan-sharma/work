@@ -1,0 +1,32 @@
+2026-09-08 15:09:00.431 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1"
+
+2026-09-08 15:09:00.431 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2"
+
+2026-09-08 15:09:00.778 [info] semantic_tokens_full file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 
+2026-09-08 15:09:00.781 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:09:00.913 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "6": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:09:00.914 [info] [Error - 3:09:00 PM] Request textDocument/semanticTokens/full failed.
+2026-09-08 15:09:00.914 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:09:01.655 [info] [Debug - 3:09:01 PM] multiple definitions found for name "temp" of type 'statement' (27:64):
+ <Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description='temp = 100'>
+<Name full_name='exercises.lesson-1-review-code-like-an-engineer.exercises.concept1-data-processing-review.starter.data_processor.process_data.temp', description="temp = item['value'] * 1.2">
+2026-09-08 15:09:12.239 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:09:12.243 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "11": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:09:12.245 [info] [Error - 3:09:12 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:09:12.245 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]
+2026-09-08 15:09:13.736 [info] semantic_tokens_range file:///voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter/data_processor.py 0:0-30:0
+2026-09-08 15:09:13.739 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "12": ValueError: not enough values to unpack (expected 1, got 0)
+NoneType: None
+
+2026-09-08 15:09:13.741 [info] [Error - 3:09:13 PM] Request textDocument/semanticTokens/range failed.
+2026-09-08 15:09:13.741 [info]   Message: ValueError: not enough values to unpack (expected 1, got 0)
+  Code: -32603 
+[object Object]

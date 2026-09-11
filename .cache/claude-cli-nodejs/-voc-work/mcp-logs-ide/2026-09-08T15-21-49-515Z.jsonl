@@ -1,0 +1,42 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T15:22:04.816Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 24ms","timestamp":"2026-09-08T15:22:04.838Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-08T15:22:04.838Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-08T15:22:04.889Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket transport closed/disconnected, attempting automatic reconnection","timestamp":"2026-09-08T15:22:23.008Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T15:22:23.010Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 7ms","timestamp":"2026-09-08T15:22:23.017Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-08T15:22:23.017Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection successful after 14ms (attempt 1)","timestamp":"2026-09-08T15:22:23.023Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-08T15:22:23.023Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-08T16:15:39.636Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 70ms","timestamp":"2026-09-08T16:15:39.706Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-08T16:15:49.469Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 24ms","timestamp":"2026-09-08T16:15:49.493Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-08T16:16:02.486Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 23ms","timestamp":"2026-09-08T16:16:02.509Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket transport closed/disconnected, attempting automatic reconnection","timestamp":"2026-09-08T17:05:06.279Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T17:05:06.282Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Connection failed after 4ms: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:06.286Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:06.286Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 1 completed with status: failed","timestamp":"2026-09-08T17:05:06.286Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 2 in 1000ms","timestamp":"2026-09-08T17:05:06.286Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T17:05:07.288Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Connection failed after 1ms: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:07.289Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:07.289Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 2 completed with status: failed","timestamp":"2026-09-08T17:05:07.289Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 3 in 2000ms","timestamp":"2026-09-08T17:05:07.289Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T17:05:09.290Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Connection failed after 1ms: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:09.291Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:09.291Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 3 completed with status: failed","timestamp":"2026-09-08T17:05:09.291Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 4 in 4000ms","timestamp":"2026-09-08T17:05:09.291Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T17:05:13.292Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Connection failed after 1ms: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:13.293Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:13.293Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 4 completed with status: failed","timestamp":"2026-09-08T17:05:13.293Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Scheduling reconnection attempt 5 in 8000ms","timestamp":"2026-09-08T17:05:13.293Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-08T17:05:21.295Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Connection failed after 1ms: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:21.296Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"error":"Connection failed: WebSocket connection to 'ws://127.0.0.1:38382/' failed: Failed to connect","timestamp":"2026-09-08T17:05:21.296Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"WebSocket reconnection attempt 5 completed with status: failed","timestamp":"2026-09-08T17:05:21.296Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}
+{"debug":"Max reconnection attempts (5) reached, giving up","timestamp":"2026-09-08T17:05:21.296Z","sessionId":"f7621a9a-9c16-4b09-9ad4-2056c87b0888","cwd":"/voc/work"}

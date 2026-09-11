@@ -1,0 +1,242 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T19:30:09.036Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 19ms","timestamp":"2026-09-10T19:30:09.053Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-10T19:30:09.053Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-10T19:30:09.094Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:32:40.763Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 60ms","timestamp":"2026-09-10T19:32:40.823Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:34:56.076Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T19:35:26.077Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (60s elapsed)","timestamp":"2026-09-10T19:35:56.077Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:36:12.409Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:36:12.410Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 196ms","timestamp":"2026-09-10T19:36:12.605Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 196ms","timestamp":"2026-09-10T19:36:12.606Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 1m 16s","timestamp":"2026-09-10T19:36:12.665Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:36:21.680Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 39ms","timestamp":"2026-09-10T19:36:21.719Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:37:09.523Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 23ms","timestamp":"2026-09-10T19:37:09.546Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:42:06.504Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 33ms","timestamp":"2026-09-10T19:42:06.537Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:43:57.407Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:44:07.587Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:44:07.589Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:44:07.606Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:44:07.685Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 47ms","timestamp":"2026-09-10T19:44:07.732Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 232ms","timestamp":"2026-09-10T19:44:07.819Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 10s","timestamp":"2026-09-10T19:44:07.870Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:44:07.870Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:44:07.871Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:44:20.226Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T19:44:20.233Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:44:35.628Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:45:05.493Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:05.495Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:45:05.512Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:05.547Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 25ms","timestamp":"2026-09-10T19:45:05.572Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T19:45:05.629Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 276ms","timestamp":"2026-09-10T19:45:05.769Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 30s","timestamp":"2026-09-10T19:45:05.777Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:45:05.777Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:45:05.778Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:13.670Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T19:45:13.677Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:45:23.414Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:45:27.380Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:27.382Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 15ms","timestamp":"2026-09-10T19:45:27.397Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:27.428Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 16ms","timestamp":"2026-09-10T19:45:27.444Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 227ms","timestamp":"2026-09-10T19:45:27.607Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 4s","timestamp":"2026-09-10T19:45:27.689Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:45:27.689Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:45:27.690Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:45:31.922Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:45:36.487Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:36.488Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:45:36.505Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:36.535Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 12ms","timestamp":"2026-09-10T19:45:36.547Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 222ms","timestamp":"2026-09-10T19:45:36.709Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 4s","timestamp":"2026-09-10T19:45:36.720Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:45:36.720Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:45:36.721Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:42.673Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 8ms","timestamp":"2026-09-10T19:45:42.681Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:45:51.430Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 18ms","timestamp":"2026-09-10T19:45:51.448Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:46:19.112Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:46:24.947Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:46:24.951Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:46:24.969Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:46:25.000Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 39ms","timestamp":"2026-09-10T19:46:25.039Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 209ms","timestamp":"2026-09-10T19:46:25.156Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 6s","timestamp":"2026-09-10T19:46:25.247Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:46:25.247Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 2ms","timestamp":"2026-09-10T19:46:25.249Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:46:47.396Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 8ms","timestamp":"2026-09-10T19:46:47.404Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:47:06.457Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 6ms","timestamp":"2026-09-10T19:47:06.463Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:47:21.478Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T19:47:21.485Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:48:11.384Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T19:48:41.384Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (60s elapsed)","timestamp":"2026-09-10T19:49:11.384Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (90s elapsed)","timestamp":"2026-09-10T19:49:41.384Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (120s elapsed)","timestamp":"2026-09-10T19:50:11.384Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:50:26.741Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:50:26.746Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 38ms","timestamp":"2026-09-10T19:50:26.784Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:50:26.818Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 22ms","timestamp":"2026-09-10T19:50:26.840Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 219ms","timestamp":"2026-09-10T19:50:26.961Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 2m 15s","timestamp":"2026-09-10T19:50:27.000Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:50:27.000Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:50:27.001Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:50:38.651Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T19:50:38.658Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:51:03.212Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 8ms","timestamp":"2026-09-10T19:51:03.220Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:51:21.481Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:51:50.501Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:51:50.503Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 18ms","timestamp":"2026-09-10T19:51:50.521Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:51:50.570Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:51:50.587Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 202ms","timestamp":"2026-09-10T19:51:50.703Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 29s","timestamp":"2026-09-10T19:51:50.732Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:51:50.733Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 2ms","timestamp":"2026-09-10T19:51:50.734Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:52:00.240Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 8ms","timestamp":"2026-09-10T19:52:00.248Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:52:23.679Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 8ms","timestamp":"2026-09-10T19:52:23.687Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:53:06.043Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:53:17.832Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:53:17.834Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:53:17.851Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:53:17.878Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:53:17.895Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 246ms","timestamp":"2026-09-10T19:53:18.078Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 12s","timestamp":"2026-09-10T19:53:18.110Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:53:18.110Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:53:18.111Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:53:23.662Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:53:34.329Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:53:34.331Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 18ms","timestamp":"2026-09-10T19:53:34.349Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:53:34.384Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 12ms","timestamp":"2026-09-10T19:53:34.396Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 199ms","timestamp":"2026-09-10T19:53:34.528Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 10s","timestamp":"2026-09-10T19:53:34.571Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:53:34.571Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 2ms","timestamp":"2026-09-10T19:53:34.573Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:53:50.127Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 9ms","timestamp":"2026-09-10T19:53:50.136Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:54:50.500Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 12ms","timestamp":"2026-09-10T19:54:50.511Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:54:50.518Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 23ms","timestamp":"2026-09-10T19:54:50.541Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:57:49.935Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 20ms","timestamp":"2026-09-10T19:57:49.955Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:59:03.920Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 19ms","timestamp":"2026-09-10T19:59:03.939Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T20:00:18.271Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:00:30.358Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:00:30.360Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 25ms","timestamp":"2026-09-10T20:00:30.385Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:00:30.416Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 19ms","timestamp":"2026-09-10T20:00:30.435Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 215ms","timestamp":"2026-09-10T20:00:30.573Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 12s","timestamp":"2026-09-10T20:00:30.632Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:00:30.632Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T20:00:30.633Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:00:43.300Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 6ms","timestamp":"2026-09-10T20:00:43.306Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:01:04.220Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 11ms","timestamp":"2026-09-10T20:01:04.231Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T20:01:04.233Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 22ms","timestamp":"2026-09-10T20:01:04.255Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T20:01:11.334Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:01:16.811Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:01:16.813Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 18ms","timestamp":"2026-09-10T20:01:16.831Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:01:16.864Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 19ms","timestamp":"2026-09-10T20:01:16.883Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 231ms","timestamp":"2026-09-10T20:01:17.042Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 5s","timestamp":"2026-09-10T20:01:17.057Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:01:17.057Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T20:01:17.058Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:01:22.456Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 6ms","timestamp":"2026-09-10T20:01:22.462Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:01:36.337Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 8ms","timestamp":"2026-09-10T20:01:36.345Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:01:48.521Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 4ms","timestamp":"2026-09-10T20:01:48.525Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T20:02:31.230Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T20:03:01.230Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:03:02.445Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:02.469Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 1ms","timestamp":"2026-09-10T20:03:02.470Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:02.540Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 39ms","timestamp":"2026-09-10T20:03:02.579Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 228ms","timestamp":"2026-09-10T20:03:02.673Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 31s","timestamp":"2026-09-10T20:03:02.676Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:03:02.676Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T20:03:02.677Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T20:03:09.430Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:03:18.499Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:18.501Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 16ms","timestamp":"2026-09-10T20:03:18.517Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:18.550Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 9ms","timestamp":"2026-09-10T20:03:18.559Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 236ms","timestamp":"2026-09-10T20:03:18.735Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 9s","timestamp":"2026-09-10T20:03:18.833Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:03:18.833Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T20:03:18.834Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:24.394Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T20:03:24.401Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:27.907Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 3ms","timestamp":"2026-09-10T20:03:27.910Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:39.369Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 6ms","timestamp":"2026-09-10T20:03:39.375Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:03:52.216Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T20:03:52.223Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:04:02.649Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 6ms","timestamp":"2026-09-10T20:04:02.655Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:04:08.461Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T20:04:08.467Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:04:25.969Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T20:04:25.976Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:04:43.106Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 9ms","timestamp":"2026-09-10T20:04:43.115Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T20:05:22.166Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:05:39.825Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:05:39.827Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 16ms","timestamp":"2026-09-10T20:05:39.843Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:05:39.867Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 16ms","timestamp":"2026-09-10T20:05:39.883Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 204ms","timestamp":"2026-09-10T20:05:40.029Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 17s","timestamp":"2026-09-10T20:05:40.039Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:05:40.039Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T20:05:40.040Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T20:05:46.885Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:05:51.973Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:05:51.975Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 16ms","timestamp":"2026-09-10T20:05:51.991Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:05:52.021Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 12ms","timestamp":"2026-09-10T20:05:52.033Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 214ms","timestamp":"2026-09-10T20:05:52.187Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 5s","timestamp":"2026-09-10T20:05:52.220Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T20:05:52.220Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T20:05:52.221Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:06:04.196Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 9ms","timestamp":"2026-09-10T20:06:04.205Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T20:06:37.779Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 12ms","timestamp":"2026-09-10T20:06:37.791Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T20:06:37.798Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 23ms","timestamp":"2026-09-10T20:06:37.821Z","sessionId":"78050049-4ecf-4715-8ce1-5baa340b869d","cwd":"/voc/work"}

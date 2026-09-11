@@ -1,0 +1,56 @@
+expense-tracker/
+├── main.py                          # CLI entry point; the ONLY place concrete
+│                                    #   implementations are chosen and injected
+├── interfaces.py                    # Shared contracts (ReportMode, TransactionLoader,
+│                                    #   ReportFormatter, ReportRegistry) + error types
+├── utils/                           # Application modules, one responsibility each
+│   ├── __init__.py
+│   ├── models.py                    # Transaction dataclass + report data structure
+│   ├── errors.py                    # Exception hierarchy re-exported for callers
+│   ├── transaction_loader.py        # CSV reading and per-row validation
+│   ├── report_modes.py              # Strategy implementations (category, monthly)
+│   ├── report_registry.py           # Name -> strategy mapping; the extension seam
+│   ├── report_engine.py             # Orchestrates loader -> strategy -> formatter
+│   └── cli_interface.py             # Argument parsing, terminal output, error messages
+├── tests/                           # Mirrors utils/ one-to-one for easy navigation
+│   ├── __init__.py
+│   ├── conftest.py                  # Shared fixtures (sample transactions, tmp CSVs)
+│   ├── test_transaction_loader.py   # Valid rows, malformed rows, missing file
+│   ├── test_report_modes.py         # Pure transforms; no mocking required
+│   ├── test_report_registry.py      # Lookup hits, misses, available_modes()
+│   ├── test_report_engine.py        # Orchestration via injected fakes
+│   ├── test_cli_interface.py        # Arg parsing and error-message rendering
+│   ├── test_integration.py          # Full workflow: CSV file in, report text out
+│   └── fixtures/
+│       ├── valid_expenses.csv       # Happy-path input
+│       ├── malformed_rows.csv       # Bad dates, non-numeric amounts, short rows
+│       └── empty.csv                # Header only; must produce an empty report
+├── data/
+│   └── sample_expenses.csv          # Realistic sample data for manual runs and demos
+├── docs/
+│   ├── architecture_plan.md         # Alternatives, trade-offs, selected design
+│   └── adding_a_report_mode.md      # Step-by-step extension guide
+├── README.md                        # Setup, usage examples, available report modes
+└── requirements.txt                 # Empty: standard library only (kept for tooling)
+
+# ---------------------------------------------------------------------------
+# Naming conventions
+# ---------------------------------------------------------------------------
+#   modules   snake_case, named for the noun they own (transaction_loader.py)
+#   classes   PascalCase, named for the role they play (CategorySummaryReport)
+#   tests     test_<module under test>.py, mirroring the utils/ layout exactly
+#   fixtures  named for the condition they represent (malformed_rows.csv), so a
+#             failing test names its own scenario
+#
+# ---------------------------------------------------------------------------
+# Import path strategy
+# ---------------------------------------------------------------------------
+#   - Run as `python main.py <file> --mode by-category` from the project root;
+#     tests run with `pytest` from the same root, so both resolve `utils.*` and
+#     `interfaces` identically with no sys.path manipulation.
+#   - utils/* modules import from `interfaces` and from `utils.models`/`utils.errors`
+#     only. They never import each other's concrete implementations.
+#   - report_engine imports the ABCs from `interfaces`, never report_modes or
+#     transaction_loader; main.py supplies the concrete instances. This is what
+#     keeps the dependency graph acyclic and the engine unit-testable with fakes.
+#   - Nothing imports main.py, which keeps the entry point free to change.

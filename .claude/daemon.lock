@@ -1,0 +1,16 @@
+{
+  "pid": 15189,
+  "version": "2.1.260",
+  "jsonPath": "/voc/work/.claude/daemon.json",
+  "logPath": "/voc/work/.claude/daemon.log",
+  "startedAt": 1788879735956,
+  "origin": "transient",
+  "spawnedBy": {
+    "label": "claude",
+    "cwd": "/voc/work/exercises/lesson-1-review-code-like-an-engineer/exercises/concept1-data-processing-review/starter",
+    "pid": 10963
+  },
+  "procStart": "8666625",
+  "launchTarget": "/usr/local/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+  "processWrapper": ""
+}

@@ -1,0 +1,44 @@
+2026-09-09 17:16:02.425 [info] Telemetry level is off
+2026-09-09 17:16:02.425 [info] Experiments are disabled, only manually opted experiments are active.
+2026-09-09 17:16:02.425 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-09-09 17:16:02.425 [info] Starting Environment refresh
+2026-09-09 17:16:02.425 [info] Searching for interpreters in posix paths locator
+2026-09-09 17:16:02.425 [info] Searching for pyenv environments
+2026-09-09 17:16:02.425 [info] Searching for conda environments
+2026-09-09 17:16:02.425 [info] Searching for global virtual environments
+2026-09-09 17:16:02.425 [info] Searching for custom virtual environments
+2026-09-09 17:16:02.425 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-09 17:16:02.425 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-09 17:16:02.425 [info] pyenv is not installed
+2026-09-09 17:16:02.425 [info] Finished searching for pyenv environments: 11 milliseconds
+2026-09-09 17:16:02.425 [info] Finished searching for custom virtual envs: 10 milliseconds
+2026-09-09 17:16:02.425 [info] > conda info --json
+2026-09-09 17:16:02.425 [info] > hatch env show --json
+2026-09-09 17:16:02.425 [info] cwd: .
+2026-09-09 17:16:02.425 [info] > pyenv which python
+2026-09-09 17:16:02.425 [info] cwd: .
+2026-09-09 17:16:02.425 [info] Finished searching for global virtual envs: 24 milliseconds
+2026-09-09 17:16:02.425 [info] Found: /bin/python --> /bin/python3.10
+2026-09-09 17:16:02.425 [info] Found: /bin/python3 --> /bin/python3.10
+2026-09-09 17:16:02.425 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-09-09 17:16:02.425 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-09-09 17:16:02.454 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-09-09 17:16:02.457 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-09-09 17:16:02.457 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-09-09 17:16:02.457 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-09-09 17:16:02.472 [info] > ./.venv/bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-09 17:16:02.484 [info] > /bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-09 17:16:02.498 [info] Finished searching for interpreters in posix paths locator: 125 milliseconds
+2026-09-09 17:16:02.528 [info] > /bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-09 17:16:02.560 [info] > /usr/bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-09 17:16:02.563 [info] > /usr/bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-09 17:16:02.590 [info] Environments refresh paths discovered (event): 217 milliseconds
+2026-09-09 17:16:02.591 [info] Environments refresh paths discovered: 218 milliseconds
+2026-09-09 17:16:02.599 [info] Environments refresh finished (event): 226 milliseconds
+2026-09-09 17:16:02.610 [info] Environment refresh took 237 milliseconds
+2026-09-09 17:16:02.620 [info] Python interpreter path: ./.venv/bin/python
+2026-09-09 17:16:03.767 [info] Starting Jedi language server for work.
+2026-09-09 17:17:32.829 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-09 17:24:39.157 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-09 17:42:50.324 [info] Send text to terminal: source /voc/work/.venv/bin/activate
+2026-09-09 18:24:26.703 [info] Send text to terminal: source /voc/work/.venv/bin/activate
