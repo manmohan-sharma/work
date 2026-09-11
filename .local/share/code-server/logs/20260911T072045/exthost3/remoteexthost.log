@@ -120,3 +120,4 @@
 2026-09-11 09:45:07.866 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
 2026-09-11 09:52:21.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3600
 2026-09-11 09:52:22.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3600
+2026-09-11 09:54:29.592 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3600
