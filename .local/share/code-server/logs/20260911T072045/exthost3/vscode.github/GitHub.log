@@ -1,2 +1,3 @@
 2026-09-11 08:43:03.857 [info] Log level: Info
 2026-09-11 09:54:49.320 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for manmohan-sharma/work/cfcfb1706144f93e5d51cbd6187ac0cb4822ccfa: TypeError: Cannot read properties of null (reading 'author')
+2026-09-11 09:55:16.220 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for manmohan-sharma/work/a964d672d7492ace60eef18d6f64eb1688ee4f99: TypeError: Cannot read properties of null (reading 'author')

@@ -38,3 +38,7 @@
 2026-09-11 09:28:17.484 [info] [172.16.15.193][9dcc20aa][ManagementConnection] The client has reconnected.
 2026-09-11 09:33:25.409 [info] [172.16.15.193][9dcc20aa][ManagementConnection] The client has reconnected.
 2026-09-11 09:33:25.493 [info] [172.16.15.193][65f1e85e][ExtensionHostConnection] The client has reconnected.
+2026-09-11 10:01:39.137 [info] [172.16.15.193][9dcc20aa][ManagementConnection] The client has reconnected.
+2026-09-11 10:01:39.565 [info] [172.16.15.193][65f1e85e][ExtensionHostConnection] The client has reconnected.
+2026-09-11 10:05:38.008 [info] [172.16.15.193][9dcc20aa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-09-11 10:05:38.212 [info] [172.16.15.193][65f1e85e][ExtensionHostConnection] <22757> Extension Host Process exited with code: 0, signal: null.

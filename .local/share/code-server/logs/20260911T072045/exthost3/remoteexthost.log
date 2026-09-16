@@ -121,3 +121,18 @@
 2026-09-11 09:52:21.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3600
 2026-09-11 09:52:22.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3600
 2026-09-11 09:54:29.592 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3600
+2026-09-11 10:05:38.098 [info] Extension host terminating: received terminate message from renderer
+2026-09-11 10:05:38.100 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/483e53e4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-09-11 10:05:38.163 [error] ExtensionError: Error in extension anthropic.claude-code: FAILED to handle event
+	at Yh.value (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:196:100366)
+	at $.C (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.D (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at $.fire (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at Yh.value (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:25:5324)
+	at p2.C (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at p2.fire (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at p2.resume (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:3607)
+	at Timeout._onTimeout (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:27:3883)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-09-11 10:05:38.166 [info] Extension host with pid 22757 exiting with code 0
